@@ -40,13 +40,13 @@ struct ErrorDTO: Decodable {
     let error_description: String
 }
 
-class PaymentGetnet {
+class PaymentGetnet: PaymentServiceProtocol {
     
     // TODO configure using env
     let api = "api-sandbox.getnet.com.br"
     let jsonDecoder = JSONDecoder()
 
-    func authenticate() -> AnyPublisher<AuthDTO, Error> {
+    private func authenticate() -> AnyPublisher<AuthDTO, Error> {
         
         // TODO should fragment build error handling
         guard let request = buildRequest() else {return Fail(error: APIError.parserError(reason: "Failed building request")).eraseToAnyPublisher()}
@@ -56,6 +56,7 @@ class PaymentGetnet {
                 guard let httpResponse = response as? HTTPURLResponse else {
                     throw APIError.unknown
                 }
+                
                 if (httpResponse.statusCode != 200) {
                     let errorData = try self.jsonDecoder.decode(ErrorDTO.self, from: data)
                     throw APIError.apiError(reason: errorData.error_description);

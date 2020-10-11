@@ -7,4 +7,7 @@
 
 import Combine
 
+protocol PaymentServiceProtocol {
+}
+
 

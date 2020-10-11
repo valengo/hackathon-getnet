@@ -26,6 +26,7 @@
 		6499840825323D7B0064EB9F /* AnnounceProductNeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6499840725323D7B0064EB9F /* AnnounceProductNeed.swift */; };
 		6499840F25323E840064EB9F /* PaymentServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6499840E25323E840064EB9F /* PaymentServiceProtocol.swift */; };
 		6499841825323EA50064EB9F /* PaymentGetnet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6499841725323EA50064EB9F /* PaymentGetnet.swift */; };
+		6499841E25328B690064EB9F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6499841D25328B690064EB9F /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		6499840725323D7B0064EB9F /* AnnounceProductNeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnounceProductNeed.swift; sourceTree = "<group>"; };
 		6499840E25323E840064EB9F /* PaymentServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentServiceProtocol.swift; sourceTree = "<group>"; };
 		6499841725323EA50064EB9F /* PaymentGetnet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentGetnet.swift; sourceTree = "<group>"; };
+		6499841D25328B690064EB9F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 		649983B4253231820064EB9F /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				6499841C25328B490064EB9F /* Models */,
 				649983B52532318D0064EB9F /* UseCases */,
 			);
 			path = Domain;
@@ -263,6 +266,14 @@
 				6499841725323EA50064EB9F /* PaymentGetnet.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		6499841C25328B490064EB9F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6499841D25328B690064EB9F /* Card.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -399,6 +410,7 @@
 				6499840F25323E840064EB9F /* PaymentServiceProtocol.swift in Sources */,
 				649983F72532373D0064EB9F /* UpdateAccount.swift in Sources */,
 				649983CA253234660064EB9F /* MakePayment.swift in Sources */,
+				6499841E25328B690064EB9F /* Card.swift in Sources */,
 				6499841825323EA50064EB9F /* PaymentGetnet.swift in Sources */,
 				649983C4253233390064EB9F /* BuyProduct.swift in Sources */,
 				649983CF2532349A0064EB9F /* ViewProduct.swift in Sources */,
