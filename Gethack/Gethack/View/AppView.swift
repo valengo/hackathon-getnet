@@ -13,25 +13,25 @@ struct AppView: View {
             
             HomeFeedView()
                 .tabItem {
-                    Image("Home")
+                    Image("Home").renderingMode(.template)
                     Text("Home")
                 }
             
             CollectiveBuyingView()
                 .tabItem {
-                    Image("Compras")
+                    Image("Compras").renderingMode(.template)
                     Text("Compras")
                 }
             
             ExchangeFeedView()
                 .tabItem {
-                    Image("Permuta")
+                    Image("Permuta").renderingMode(.template)
                     Text("Permuta")
                 }
             
             ProfilePageView()
                 .tabItem {
-                    Image("PerfilCinza")
+                    Image("PerfilCinza").renderingMode(.template)
                     Text("Perfil")
                 }
         }
