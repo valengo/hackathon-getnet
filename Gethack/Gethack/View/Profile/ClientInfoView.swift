@@ -13,6 +13,7 @@ struct ClientInfoView: View {
             HStack {
                 VStack {
                     Text("Compras Coletivas")
+                        .padding(.bottom, 5)
                     Text("03")
                         .font(.system(.largeTitle)).bold()
                         .foregroundColor(.red)
@@ -21,6 +22,7 @@ struct ClientInfoView: View {
                 Spacer()
                 VStack {
                     Text("Serviços Trocados")
+                        .padding(.bottom, 5)
                     Text("01")
                         .font(.system(.largeTitle)).bold()
                         .foregroundColor(.red)
@@ -29,6 +31,7 @@ struct ClientInfoView: View {
                 Spacer()
                 VStack {
                     Text("Produtos Trocados")
+                        .padding(.bottom, 5)
                     Text("00")
                         .font(.system(.largeTitle)).bold()
                         .foregroundColor(.red)

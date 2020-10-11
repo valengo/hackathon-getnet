@@ -23,9 +23,12 @@ struct CollectiveShoppingProductView: View {
                 Button(action: {}, label: {
                     Image("Adquirir")
                 })
-                Button(action: {}, label: {
-                    Image("Cancelar")
-                })
+                NavigationLink(
+                    destination: CancelView(),
+                    label: {
+                        Image("Cancelar")
+                    })
+                
             }
         }
         .padding()

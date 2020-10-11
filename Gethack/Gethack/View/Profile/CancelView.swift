@@ -20,14 +20,12 @@ struct CancelView: View {
             Text("Ao cancelar sua compra, seu dinheiro será reembolsado")
                 .bold()
             Spacer()
-            HStack {
-                Button(action: {}, label: {
-                    Image("Voltar")
-                })
-                Button(action: {}, label: {
+            NavigationLink(
+                destination: CancelConfirmedView(),
+                label: {
                     Image("Cancelar2")
                 })
-            }
+            
         }
         .padding()
     }

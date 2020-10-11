@@ -9,14 +9,19 @@ import SwiftUI
 
 struct ProfileList: View {
     var body: some View {
-        NavigationView {
+        
         List {
-            HStack{
-                Image("ShoppingCart")
-                Text("Ver minhas compras coletivas")
-                Spacer()
-                Image("Arrow")
-            }
+            NavigationLink (
+                destination: CollectiveShoppingProgressView(),
+                label: {
+                    HStack{
+                        Image("ShoppingCart")
+                        Text("Ver minhas compras coletivas")
+                        Spacer()
+                        Image("Arrow")
+                    }
+                })
+                .buttonStyle(PlainButtonStyle())
             HStack{
                 Image("Configuration")
                 Text("Ver meus serviços trocados")
@@ -35,9 +40,12 @@ struct ProfileList: View {
                 Spacer()
                 Image("Arrow")
             }
-
+            
         }
-        }
+        
+        
+        
+        
     }
 }
 

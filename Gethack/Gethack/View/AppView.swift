@@ -15,11 +15,13 @@ struct AppView: View {
                     Image("BuyingIcon")
                     Text("Compras")
                 }
+            
             ProfilePageView()
                 .tabItem {
-                    Image("BuyingIcon")
-                    Text("Compras")
+                    Image("Profile")
+                    Text("Perfil")
                 }
+            
             
         }
     }
