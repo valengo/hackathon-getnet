@@ -42,6 +42,9 @@
 		BC6D6709253378D20084EAA8 /* RequesterInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D6708253378D20084EAA8 /* RequesterInfoView.swift */; };
 		BC6D670E25337A710084EAA8 /* ServiceInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D670D25337A710084EAA8 /* ServiceInfoView.swift */; };
 		BC6D671625337E040084EAA8 /* PriceInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D671525337E030084EAA8 /* PriceInputView.swift */; };
+		BC6D671B253381870084EAA8 /* DeadlineInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D671A253381870084EAA8 /* DeadlineInputView.swift */; };
+		BC6D67202533820B0084EAA8 /* CommentInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D671F2533820B0084EAA8 /* CommentInputView.swift */; };
+		BC6D67252533829A0084EAA8 /* ProposalSentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D67242533829A0084EAA8 /* ProposalSentView.swift */; };
 		BC93C9BD2532560A009D2E74 /* OffersTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93C9BC2532560A009D2E74 /* OffersTypeView.swift */; };
 		BC93C9E12532622E009D2E74 /* OfferCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93C9E02532622E009D2E74 /* OfferCollectionView.swift */; };
 		BC93C9EC25326531009D2E74 /* OffersCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93C9EB25326531009D2E74 /* OffersCollectionView.swift */; };
@@ -107,6 +110,9 @@
 		BC6D6708253378D20084EAA8 /* RequesterInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequesterInfoView.swift; sourceTree = "<group>"; };
 		BC6D670D25337A710084EAA8 /* ServiceInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceInfoView.swift; sourceTree = "<group>"; };
 		BC6D671525337E030084EAA8 /* PriceInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceInputView.swift; sourceTree = "<group>"; };
+		BC6D671A253381870084EAA8 /* DeadlineInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadlineInputView.swift; sourceTree = "<group>"; };
+		BC6D671F2533820B0084EAA8 /* CommentInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentInputView.swift; sourceTree = "<group>"; };
+		BC6D67242533829A0084EAA8 /* ProposalSentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProposalSentView.swift; sourceTree = "<group>"; };
 		BC93C9BC2532560A009D2E74 /* OffersTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersTypeView.swift; sourceTree = "<group>"; };
 		BC93C9E02532622E009D2E74 /* OfferCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCollectionView.swift; sourceTree = "<group>"; };
 		BC93C9EB25326531009D2E74 /* OffersCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersCollectionView.swift; sourceTree = "<group>"; };
@@ -303,6 +309,9 @@
 				BC6D670D25337A710084EAA8 /* ServiceInfoView.swift */,
 				BC6D6708253378D20084EAA8 /* RequesterInfoView.swift */,
 				BC6D671525337E030084EAA8 /* PriceInputView.swift */,
+				BC6D671A253381870084EAA8 /* DeadlineInputView.swift */,
+				BC6D671F2533820B0084EAA8 /* CommentInputView.swift */,
+				BC6D67242533829A0084EAA8 /* ProposalSentView.swift */,
 			);
 			path = Exchange;
 			sourceTree = "<group>";
@@ -473,7 +482,9 @@
 				BC6D66A8253332C20084EAA8 /* AppView.swift in Sources */,
 				BC6D66E1253366C40084EAA8 /* HomeFeedView.swift in Sources */,
 				BC18F1442532912F00348A10 /* BuyerInfoView.swift in Sources */,
+				BC6D67202533820B0084EAA8 /* CommentInputView.swift in Sources */,
 				BC18F14C253291C700348A10 /* ButtonsView.swift in Sources */,
+				BC6D671B253381870084EAA8 /* DeadlineInputView.swift in Sources */,
 				BC6D66D1253340A20084EAA8 /* CancelConfirmedView.swift in Sources */,
 				BC18F1772532ACED00348A10 /* PaymentMethodView.swift in Sources */,
 				BC6D670E25337A710084EAA8 /* ServiceInfoView.swift in Sources */,
@@ -481,6 +492,7 @@
 				6499837B2532288B0064EB9F /* GethackApp.swift in Sources */,
 				BC6D6709253378D20084EAA8 /* RequesterInfoView.swift in Sources */,
 				BC18F17C2532B1D100348A10 /* CardInfoView.swift in Sources */,
+				BC6D67252533829A0084EAA8 /* ProposalSentView.swift in Sources */,
 				BC6D66EA2533673F0084EAA8 /* ExchangeFeedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

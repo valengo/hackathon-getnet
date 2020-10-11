@@ -16,7 +16,12 @@ struct ServiceDetailView: View {
                 .padding(.bottom, 15)
             RequesterInfoView()
                 .padding(.bottom, 130)
-            Image("FazerServico")
+            NavigationLink(
+                destination: PriceInputView(),
+                label: {
+                    Image("FazerServico")
+                })
+            
         }
         .edgesIgnoringSafeArea(.top)
         .padding([.leading, .trailing, .bottom])
