@@ -43,27 +43,6 @@ class PaymentGetnet: PaymentServiceProtocol {
         }).eraseToAnyPublisher()
     }
     
-    func makePayment() {
-        authenticate()
-            .sink(receiveCompletion: {
-                    print ("Received completion: \($0).") },
-                  receiveValue: { [self] authDTO in
-                            self.getCardToken(authToken: authDTO.access_token, requestDTO: RequestCardTokenDTO(card_number: "5155901222280001", customer_id: "1"))
-                                    .sink(receiveCompletion: { print ("Received completion: \($0).") },
-                                          receiveValue: { cardDTO in
-                                            let order = OrderDTO(order_id: "12345")
-                                            let billingAddress = BillingAddressDTO()
-                                            let customer = CustomerDTO(customer_id: "12345", billing_address: billingAddress)
-                                            let card = CardDTO(number_token: cardDTO.number_token, cardholder_name: "JOAO DA SILVA", expiration_month: "12", expiration_year: "21")
-                                            let credit = CreditDTO(delayed: false, save_card_data: false, transaction_type: "FULL", number_installments: 1, card: card)
-                                            let requestDTO = RequestCreditPaymentDTO(amount: 1000, order: order, customer: customer, credit: credit)
-                                            creditPayment(authToken: authDTO.access_token, requestDTO: requestDTO).sink(receiveCompletion: { print ("Received completion: \($0).") },
-                                                receiveValue: { paymentDTO in print ("Received AuthDTO: \(paymentDTO).")}).store(in: &cancellables)
-                                            
-                                          }).store(in: &cancellables)
-                  }).store(in: &cancellables)
-    }
-
     private func authenticate() -> AnyPublisher<AuthDTO, Error> {
         
         // TODO should fragment build error handling

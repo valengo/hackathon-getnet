@@ -9,9 +9,8 @@ import SwiftUI
 
 struct OfferCollectionView: View {
     
-    static let column = 2
-    static let row = 9
-    
+    let offerViewModel: OfferViewModel
+
     var body: some View {
         
         ZStack {
@@ -19,12 +18,12 @@ struct OfferCollectionView: View {
                 .frame(width: 170, height: 200)
                 .foregroundColor(.ourGray)
             VStack {
-                Image("Product-Chokito")
-                Text("Chocolate Chokito")
+                Image(offerViewModel.imageName)
+                Text(offerViewModel.name)
                     .font(.system(.headline))
-                Text("caixa c/ 30 un")
+                Text(offerViewModel.imageName.description)
                     .font(.system(size: 15))
-                Text("R$12,00")
+                Text(offerViewModel.price)
                     .font(.system(size: 25, weight: .bold))
                     .foregroundColor(.ourRed)
 
@@ -32,11 +31,5 @@ struct OfferCollectionView: View {
             .frame(width: 150, height: 190)
         }
         
-    }
-}
-
-struct OfferCollectionView_Previews: PreviewProvider {
-    static var previews: some View {
-        OfferCollectionView()
     }
 }
