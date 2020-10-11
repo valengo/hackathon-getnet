@@ -19,7 +19,7 @@ struct AppView: View {
             
             CollectiveBuyingView()
                 .tabItem {
-                    Image("BuyingIcon")
+                    Image("Compras")
                     Text("Compras")
                 }
             
@@ -31,12 +31,11 @@ struct AppView: View {
             
             ProfilePageView()
                 .tabItem {
-                    Image("Profile")
+                    Image("PerfilCinza")
                     Text("Perfil")
                 }
-            
-            
         }
+        .accentColor(.ourRed)
     }
 }
 
