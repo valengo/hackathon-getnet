@@ -22,13 +22,28 @@ struct ConfirmOrderView: View {
                 .padding(.leading)
             Spacer()
             
-            NavigationLink(destination: OrderConfirmedView()
+            NavigationLink(destination: OrderConfirmationResultView(state: $viewModel.state)
                             .onAppear {viewModel.payWithCreditCard()}){
                 Image("Confirm")
             }
         }
         .padding([.top, .bottom])
         
+    }
+}
+
+struct OrderConfirmationResultView: View {
+    @Binding var state: ConfirmOrderState
+    
+    var body: some View {
+        VStack {
+            if state == .loading {
+                LoadingView()
+            } else if state == .success {
+                OrderConfirmedView()
+            }
+        }
+        .navigationBarBackButtonHidden(true)
     }
 }
 

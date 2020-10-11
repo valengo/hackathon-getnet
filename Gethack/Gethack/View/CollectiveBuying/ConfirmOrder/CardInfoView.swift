@@ -8,9 +8,7 @@
 import SwiftUI
 
 struct CardInfoView: View {
-    
-    @State private var textField: String = ""
-        
+            
     @Binding var card: CardViewModel
     
     var body: some View {

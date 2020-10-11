@@ -4,7 +4,7 @@
 //
 //  Created by Andressa Valengo on 10/10/20.
 //
-
+import Foundation
 import Combine
 
 struct CardViewModel {
@@ -14,9 +14,17 @@ struct CardViewModel {
     var cardholderName: String = ""
 }
 
+enum ConfirmOrderState {
+    case idle
+    case loading
+    case success
+}
+
 class ConfirmOrderViewModel: ObservableObject {
     
     @Published var card: CardViewModel = CardViewModel()
+    
+    @Published var state: ConfirmOrderState = .idle
     
     private let makeCreditCardPaymentUseCase: MakeCreditCardPayment
     
@@ -27,14 +35,16 @@ class ConfirmOrderViewModel: ObservableObject {
     }
     
     func payWithCreditCard() {
-        cancellable = self.makeCreditCardPaymentUseCase.perform(withCard: map(cardViewModel: card)).sink(receiveCompletion: {completion in
+        self.state = .loading
+        cancellable = self.makeCreditCardPaymentUseCase.perform(withCard: map(cardViewModel: card)).receive(on: DispatchQueue.main)
+            .sink(receiveCompletion: {completion in
             switch completion {
             case .finished:
-                print("Sucesso")
+                self.state = .success
             case .failure(let error):
                 print(error)
             }
-        }, receiveValue: {value in print(value)})
+        }, receiveValue: {_ in })
     }
     
     func map(cardViewModel vm: CardViewModel) -> Card {

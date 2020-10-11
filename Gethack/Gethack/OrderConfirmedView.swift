@@ -12,7 +12,6 @@ struct OrderConfirmedView: View {
         VStack(alignment: .center){
             OrderInfoView()
             
-            
             Spacer()
             
             VStack {
@@ -20,12 +19,8 @@ struct OrderConfirmedView: View {
                     Image("Download")
                 })
             }
-            
-            
         }
         .padding([.leading, .trailing, .top, .bottom])
-        
-        
     }
 }
 
