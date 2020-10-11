@@ -23,7 +23,7 @@ struct OrderConfirmedView: View {
             
             
         }
-        .padding([.leading, .trailing, .top])
+        .padding([.leading, .trailing, .top, .bottom])
         
         
     }

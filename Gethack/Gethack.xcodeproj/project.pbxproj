@@ -23,7 +23,7 @@
 		BC18F1772532ACED00348A10 /* PaymentMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F1762532ACED00348A10 /* PaymentMethodView.swift */; };
 		BC18F17C2532B1D100348A10 /* CardInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F17B2532B1D100348A10 /* CardInfoView.swift */; };
 		BC18F18125332E9600348A10 /* OrderInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F18025332E9600348A10 /* OrderInfoView.swift */; };
-		BC18F18D253330C200348A10 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F18C253330C200348A10 /* TabView.swift */; };
+		BC6D66A8253332C20084EAA8 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66A7253332C20084EAA8 /* AppView.swift */; };
 		BC93C9BD2532560A009D2E74 /* OffersTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93C9BC2532560A009D2E74 /* OffersTypeView.swift */; };
 		BC93C9E12532622E009D2E74 /* OfferCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93C9E02532622E009D2E74 /* OfferCollectionView.swift */; };
 		BC93C9EC25326531009D2E74 /* OffersCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93C9EB25326531009D2E74 /* OffersCollectionView.swift */; };
@@ -70,7 +70,7 @@
 		BC18F1762532ACED00348A10 /* PaymentMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodView.swift; sourceTree = "<group>"; };
 		BC18F17B2532B1D100348A10 /* CardInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoView.swift; sourceTree = "<group>"; };
 		BC18F18025332E9600348A10 /* OrderInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderInfoView.swift; sourceTree = "<group>"; };
-		BC18F18C253330C200348A10 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		BC6D66A7253332C20084EAA8 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		BC93C9BC2532560A009D2E74 /* OffersTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersTypeView.swift; sourceTree = "<group>"; };
 		BC93C9E02532622E009D2E74 /* OfferCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCollectionView.swift; sourceTree = "<group>"; };
 		BC93C9EB25326531009D2E74 /* OffersCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersCollectionView.swift; sourceTree = "<group>"; };
@@ -171,9 +171,9 @@
 			isa = PBXGroup;
 			children = (
 				649983B02532299E0064EB9F /* Assets */,
+				BC6D66A7253332C20084EAA8 /* AppView.swift */,
 				BC18F1852533302300348A10 /* CollectiveBuying */,
 				BC18F162253299E000348A10 /* Profile */,
-				BC18F18C253330C200348A10 /* TabView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -384,11 +384,11 @@
 				BC93C9BD2532560A009D2E74 /* OffersTypeView.swift in Sources */,
 				6499837D2532288B0064EB9F /* CollectiveBuyingView.swift in Sources */,
 				BC18F15B253296FF00348A10 /* OrderConfirmedView.swift in Sources */,
-				BC18F18D253330C200348A10 /* TabView.swift in Sources */,
 				BC93C9EC25326531009D2E74 /* OffersCollectionView.swift in Sources */,
 				BC18F16525329A2100348A10 /* ProfilePageView.swift in Sources */,
 				BC93C9E12532622E009D2E74 /* OfferCollectionView.swift in Sources */,
 				BC93C9F82532832E009D2E74 /* ProductView.swift in Sources */,
+				BC6D66A8253332C20084EAA8 /* AppView.swift in Sources */,
 				BC18F1442532912F00348A10 /* BuyerInfoView.swift in Sources */,
 				BC18F14C253291C700348A10 /* ButtonsView.swift in Sources */,
 				BC18F1772532ACED00348A10 /* PaymentMethodView.swift in Sources */,

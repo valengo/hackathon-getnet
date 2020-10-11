@@ -22,7 +22,7 @@ struct ConfirmOrderView: View {
                 Image("Confirm")
             }
         }
-        .padding(.top)
+        .padding([.top, .bottom])
         
     }
 }

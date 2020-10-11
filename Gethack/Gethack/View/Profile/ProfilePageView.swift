@@ -15,9 +15,10 @@ struct ProfilePageView: View {
                 .clipShape(Circle())
                 .frame(width: 200, height: 200)
             Text("Maria Helena Borba")
-            Spacer()
+                .font(.system(size: 25, weight: .bold))
+                .padding(.bottom, 20)
             ClientInfoView()
-            Spacer()
+                .padding(.bottom, 20)
             ProfileList()
         }
     }

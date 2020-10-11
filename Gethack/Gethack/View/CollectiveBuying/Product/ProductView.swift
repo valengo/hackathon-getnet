@@ -31,13 +31,13 @@ struct ProductView: View {
 
                 
                 ButtonsView()
-                    .padding(.top, 120)
+                    .padding(.top, 60)
                     
                 
                 
                 
             }
-            .padding([.leading, .trailing])
+            .padding([.leading, .trailing, .bottom])
             .padding(.top, 25)
             .background(Color.white)
             .cornerRadius(20)
