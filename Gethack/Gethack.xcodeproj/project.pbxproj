@@ -31,6 +31,8 @@
 		BC6D66C725333DDE0084EAA8 /* CancelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66C625333DDE0084EAA8 /* CancelView.swift */; };
 		BC6D66CC25333F360084EAA8 /* CancelFeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66CB25333F360084EAA8 /* CancelFeedbackView.swift */; };
 		BC6D66D1253340A20084EAA8 /* CancelConfirmedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66D0253340A20084EAA8 /* CancelConfirmedView.swift */; };
+		BC6D66D6253348120084EAA8 /* GoalAchievedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66D5253348120084EAA8 /* GoalAchievedView.swift */; };
+		BC6D66DB253348FA0084EAA8 /* ProductAchievedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66DA253348F90084EAA8 /* ProductAchievedView.swift */; };
 		BC93C9BD2532560A009D2E74 /* OffersTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93C9BC2532560A009D2E74 /* OffersTypeView.swift */; };
 		BC93C9E12532622E009D2E74 /* OfferCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93C9E02532622E009D2E74 /* OfferCollectionView.swift */; };
 		BC93C9EC25326531009D2E74 /* OffersCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93C9EB25326531009D2E74 /* OffersCollectionView.swift */; };
@@ -85,6 +87,8 @@
 		BC6D66C625333DDE0084EAA8 /* CancelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelView.swift; sourceTree = "<group>"; };
 		BC6D66CB25333F360084EAA8 /* CancelFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelFeedbackView.swift; sourceTree = "<group>"; };
 		BC6D66D0253340A20084EAA8 /* CancelConfirmedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelConfirmedView.swift; sourceTree = "<group>"; };
+		BC6D66D5253348120084EAA8 /* GoalAchievedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalAchievedView.swift; sourceTree = "<group>"; };
+		BC6D66DA253348F90084EAA8 /* ProductAchievedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAchievedView.swift; sourceTree = "<group>"; };
 		BC93C9BC2532560A009D2E74 /* OffersTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersTypeView.swift; sourceTree = "<group>"; };
 		BC93C9E02532622E009D2E74 /* OfferCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCollectionView.swift; sourceTree = "<group>"; };
 		BC93C9EB25326531009D2E74 /* OffersCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersCollectionView.swift; sourceTree = "<group>"; };
@@ -243,6 +247,8 @@
 				BC6D66C625333DDE0084EAA8 /* CancelView.swift */,
 				BC6D66CB25333F360084EAA8 /* CancelFeedbackView.swift */,
 				BC6D66D0253340A20084EAA8 /* CancelConfirmedView.swift */,
+				BC6D66D5253348120084EAA8 /* GoalAchievedView.swift */,
+				BC6D66DA253348F90084EAA8 /* ProductAchievedView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -401,6 +407,7 @@
 				BC18F1552532954400348A10 /* ConfirmOrderView.swift in Sources */,
 				BC18F18125332E9600348A10 /* OrderInfoView.swift in Sources */,
 				BC6D66C225333CA60084EAA8 /* CollectiveShoppingProductSellerView.swift in Sources */,
+				BC6D66DB253348FA0084EAA8 /* ProductAchievedView.swift in Sources */,
 				BC18F1722532A18500348A10 /* ProfileList.swift in Sources */,
 				BC6D66B3253337EC0084EAA8 /* CollectiveShoppingProgressView.swift in Sources */,
 				BC6D66B8253339D20084EAA8 /* CollectiveShoppingProductView.swift in Sources */,
@@ -414,6 +421,7 @@
 				BC93C9E12532622E009D2E74 /* OfferCollectionView.swift in Sources */,
 				BC6D66CC25333F360084EAA8 /* CancelFeedbackView.swift in Sources */,
 				BC6D66BD25333C260084EAA8 /* CollectiveShoppingProductInfoView.swift in Sources */,
+				BC6D66D6253348120084EAA8 /* GoalAchievedView.swift in Sources */,
 				BC93C9F82532832E009D2E74 /* ProductView.swift in Sources */,
 				BC6D66A8253332C20084EAA8 /* AppView.swift in Sources */,
 				BC18F1442532912F00348A10 /* BuyerInfoView.swift in Sources */,
