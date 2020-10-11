@@ -30,6 +30,7 @@ struct CollectiveBuyingView: View {
                 })
             )
         }
+        .accentColor(.ourRed)
         
     }
 }

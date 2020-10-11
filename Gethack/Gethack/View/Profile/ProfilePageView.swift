@@ -8,19 +8,31 @@
 import SwiftUI
 
 struct ProfilePageView: View {
+    
     var body: some View {
-        VStack {
-            Image("User")
-                .resizable()
-                .clipShape(Circle())
-                .frame(width: 200, height: 200)
-            Text("Maria Helena Borba")
-                .font(.system(size: 25, weight: .bold))
-                .padding(.bottom, 20)
-            ClientInfoView()
-                .padding(.bottom, 20)
-            ProfileList()
+    
+        NavigationView {
+            VStack {
+                    Image("User")
+                        .resizable()
+                        .clipShape(Circle())
+                        .frame(width: 200, height: 200)
+                    Text("Maria Helena Borba")
+                        .font(.system(size: 25, weight: .bold))
+                        .padding(.bottom, 20)
+                    ClientInfoView()
+                    ProfileListView()
+            }
+            .padding()
+            .navigationBarTitle("Meu Perfil", displayMode: .inline)
+            .navigationBarItems(trailing:
+                Button(action: {}, label: {
+                    Image(systemName: "bell")
+                })
+            )
         }
+        .accentColor(.ourRed)
+        
     }
 }
 
