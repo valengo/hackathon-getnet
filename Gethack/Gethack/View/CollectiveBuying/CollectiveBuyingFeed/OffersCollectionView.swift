@@ -8,15 +8,18 @@
 import SwiftUI
 
 struct OffersCollectionView: View {
+    
+    @ObservedObject var viewModel = OffersCollectionViewModel()
+    
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
-            ForEach(0..<OfferCollectionView.row) { item in
+            ForEach(0..<viewModel.offers.count) { item in
                 HStack {
-                    ForEach(0..<OfferCollectionView.column) { item in
+                    ForEach(0..<viewModel.offers[item].count) { index in
                         Spacer()
-                        
-                        NavigationLink(destination: ProductView()){
-                            OfferCollectionView()
+                        let offer = viewModel.offers[item][index]
+                        NavigationLink(destination: ProductView(offerViewModel: offer)){
+                            OfferCollectionView(offerViewModel: offer)
                         }
                         .buttonStyle(PlainButtonStyle())
                         

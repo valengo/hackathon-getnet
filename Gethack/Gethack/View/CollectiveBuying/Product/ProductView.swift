@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ProductView: View {
+    let offerViewModel: OfferViewModel
+
     var body: some View {
         ScrollView(.vertical, showsIndicators: false, content: {
             GeometryReader { reader in
@@ -45,11 +47,5 @@ struct ProductView: View {
         })
         .edgesIgnoringSafeArea(.all)
         .background(Color.white.edgesIgnoringSafeArea(.all))
-    }
-}
-
-struct ProductView_Previews: PreviewProvider {
-    static var previews: some View {
-        ProductView()
     }
 }
