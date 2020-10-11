@@ -19,17 +19,19 @@ struct ProductView: View {
             VStack(alignment: .leading) {
                 HStack {
                     Text("Coca-Cola Lata (355ml)")
-                        .font(.system(size: 30, weight: .bold))
+                        .font(.system(size: 25, weight: .bold))
                     Spacer()
                     Image(systemName: "bookmark")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .frame(height: 30)
+                        .frame(height: 25)
                 }
                 
                 BuyerInfoView()
+
                 
                 ButtonsView()
+                    .padding(.top, 120)
                     
                 
                 

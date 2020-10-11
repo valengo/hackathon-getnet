@@ -14,7 +14,11 @@ struct OffersCollectionView: View {
                 HStack {
                     ForEach(0..<OfferCollectionView.column) { item in
                         Spacer()
-                        OfferCollectionView()
+                        NavigationLink(destination: ProductView()){
+                            OfferCollectionView()
+                        }
+                        .buttonStyle(PlainButtonStyle())
+                        
                         Spacer()
                     }
                 }

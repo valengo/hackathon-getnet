@@ -11,7 +11,7 @@ import SwiftUI
 struct GethackApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CollectiveBuyingView()
         }
     }
 }

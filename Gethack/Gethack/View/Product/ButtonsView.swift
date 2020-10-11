@@ -14,9 +14,10 @@ struct ButtonsView: View {
                 Image("Picker")
             })
             Spacer()
-            Button(action: {}, label: {
-                Image("Order")
-            })
+            NavigationLink(destination: ConfirmOrderView()){
+                    Image("Order")
+            }
+            
             
         }
     }

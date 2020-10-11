@@ -17,13 +17,18 @@ struct CollectiveBuyingView: View {
                     TextField("Search", text: $textField)
                     Image(systemName: "mic.fill")
                 }
-                .padding([.leading, .trailing])
+                .padding([.leading, .trailing, .top])
                 
                 OffersTypeView()
                     .padding(.leading)
                 OffersCollectionView()
             }
             .navigationBarTitle("Compra Coletiva", displayMode: .inline)
+            .navigationBarItems(trailing:
+                Button(action: {}, label: {
+                    Image(systemName: "bell")
+                })
+            )
         }
         
     }
@@ -33,4 +38,9 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         CollectiveBuyingView()
     }
+}
+
+extension Color {
+    static let ourRed = Color("ourRed")
+    static let ourGray = Color("ourGray")
 }

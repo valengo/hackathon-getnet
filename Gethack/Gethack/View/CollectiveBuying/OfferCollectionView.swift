@@ -14,17 +14,19 @@ struct OfferCollectionView: View {
     
     var body: some View {
         
-        
-        
         ZStack {
             RoundedRectangle(cornerRadius: 15)
-                .frame(width: 170, height: 190)
-                .foregroundColor(.gray)
+                .frame(width: 170, height: 200)
+                .foregroundColor(.ourGray)
             VStack {
                 Image("Product-Chokito")
-                Text("Chokito")
+                Text("Chocolate Chokito")
+                    .font(.system(.headline))
                 Text("caixa c/ 30 un")
+                    .font(.system(size: 15))
                 Text("R$12,00")
+                    .font(.system(size: 25, weight: .bold))
+                    .foregroundColor(.ourRed)
 
             }
             .frame(width: 150, height: 190)
