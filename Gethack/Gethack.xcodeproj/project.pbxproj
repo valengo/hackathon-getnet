@@ -22,6 +22,7 @@
 		BC18F1722532A18500348A10 /* ProfileList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F1712532A18500348A10 /* ProfileList.swift */; };
 		BC18F1772532ACED00348A10 /* PaymentMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F1762532ACED00348A10 /* PaymentMethodView.swift */; };
 		BC18F17C2532B1D100348A10 /* CardInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F17B2532B1D100348A10 /* CardInfoView.swift */; };
+		BC18F18125332E9600348A10 /* OrderInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F18025332E9600348A10 /* OrderInfoView.swift */; };
 		BC93C9BD2532560A009D2E74 /* OffersTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93C9BC2532560A009D2E74 /* OffersTypeView.swift */; };
 		BC93C9E12532622E009D2E74 /* OfferCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93C9E02532622E009D2E74 /* OfferCollectionView.swift */; };
 		BC93C9EC25326531009D2E74 /* OffersCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93C9EB25326531009D2E74 /* OffersCollectionView.swift */; };
@@ -67,6 +68,7 @@
 		BC18F1712532A18500348A10 /* ProfileList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileList.swift; sourceTree = "<group>"; };
 		BC18F1762532ACED00348A10 /* PaymentMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodView.swift; sourceTree = "<group>"; };
 		BC18F17B2532B1D100348A10 /* CardInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoView.swift; sourceTree = "<group>"; };
+		BC18F18025332E9600348A10 /* OrderInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderInfoView.swift; sourceTree = "<group>"; };
 		BC93C9BC2532560A009D2E74 /* OffersTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersTypeView.swift; sourceTree = "<group>"; };
 		BC93C9E02532622E009D2E74 /* OfferCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCollectionView.swift; sourceTree = "<group>"; };
 		BC93C9EB25326531009D2E74 /* OffersCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersCollectionView.swift; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				BC18F15A253296FF00348A10 /* OrderConfirmedView.swift */,
+				BC18F18025332E9600348A10 /* OrderInfoView.swift */,
 			);
 			name = OrderConfirmed;
 			path = ..;
@@ -364,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC18F1552532954400348A10 /* ConfirmOrderView.swift in Sources */,
+				BC18F18125332E9600348A10 /* OrderInfoView.swift in Sources */,
 				BC18F1722532A18500348A10 /* ProfileList.swift in Sources */,
 				BC18F16D25329F3D00348A10 /* ClientInfoView.swift in Sources */,
 				BC93C9BD2532560A009D2E74 /* OffersTypeView.swift in Sources */,

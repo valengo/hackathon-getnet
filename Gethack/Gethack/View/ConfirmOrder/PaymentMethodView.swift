@@ -24,7 +24,7 @@ struct PaymentMethodView: View {
                     Image("CreditCard")
                 })
             }
-            .frame(width: UIScreen.main.bounds.width,alignment: .center)
+            .frame(alignment: .center)
             .padding(.bottom, 30)
             
             HStack {
@@ -44,7 +44,7 @@ struct PaymentMethodView: View {
                 
             }
         }
-        .frame(width: UIScreen.main.bounds.width, alignment: .leading)
+        .frame(alignment: .leading)
             
     }
 }

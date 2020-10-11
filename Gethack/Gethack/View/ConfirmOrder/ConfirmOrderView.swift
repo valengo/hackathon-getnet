@@ -11,7 +11,18 @@ struct ConfirmOrderView: View {
     var body: some View {
         VStack {
             PaymentMethodView()
+                .padding(.leading)
+                .padding(.bottom, 30)
+                .frame(width: UIScreen.main.bounds.width, alignment: .leading)
+            
+            CardInfoView()
+                .padding(.leading)
+            Spacer()
+            NavigationLink(destination: OrderConfirmedView()){
+                Image("Confirm")
+            }
         }
+        .padding(.top)
         
     }
 }
