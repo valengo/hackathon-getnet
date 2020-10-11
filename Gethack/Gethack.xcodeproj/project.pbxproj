@@ -13,6 +13,9 @@
 		649983822532288D0064EB9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649983812532288D0064EB9F /* Preview Assets.xcassets */; };
 		6499838D2532288D0064EB9F /* GethackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6499838C2532288D0064EB9F /* GethackTests.swift */; };
 		649983982532288D0064EB9F /* GethackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649983972532288D0064EB9F /* GethackUITests.swift */; };
+		BC18F1442532912F00348A10 /* BuyerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F1432532912F00348A10 /* BuyerInfoView.swift */; };
+		BC18F14C253291C700348A10 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F14B253291C700348A10 /* ButtonsView.swift */; };
+		BC18F1552532954400348A10 /* ConfirmOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F1542532954400348A10 /* ConfirmOrderView.swift */; };
 		BC93C9BD2532560A009D2E74 /* OffersTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93C9BC2532560A009D2E74 /* OffersTypeView.swift */; };
 		BC93C9E12532622E009D2E74 /* OfferCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93C9E02532622E009D2E74 /* OfferCollectionView.swift */; };
 		BC93C9EC25326531009D2E74 /* OffersCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93C9EB25326531009D2E74 /* OffersCollectionView.swift */; };
@@ -49,6 +52,9 @@
 		649983932532288D0064EB9F /* GethackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GethackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		649983972532288D0064EB9F /* GethackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GethackUITests.swift; sourceTree = "<group>"; };
 		649983992532288D0064EB9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC18F1432532912F00348A10 /* BuyerInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyerInfoView.swift; sourceTree = "<group>"; };
+		BC18F14B253291C700348A10 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		BC18F1542532954400348A10 /* ConfirmOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmOrderView.swift; sourceTree = "<group>"; };
 		BC93C9BC2532560A009D2E74 /* OffersTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersTypeView.swift; sourceTree = "<group>"; };
 		BC93C9E02532622E009D2E74 /* OfferCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCollectionView.swift; sourceTree = "<group>"; };
 		BC93C9EB25326531009D2E74 /* OffersCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersCollectionView.swift; sourceTree = "<group>"; };
@@ -104,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				649983AF2532298C0064EB9F /* View */,
+				BC18F159253296A400348A10 /* OrderConfirmed */,
 				649983A8253228EF0064EB9F /* Supporting */,
 				649983802532288D0064EB9F /* Preview Content */,
 			);
@@ -150,7 +157,8 @@
 			children = (
 				649983B02532299E0064EB9F /* Assets */,
 				BC93C9F325327D4D009D2E74 /* CollectiveBuying */,
-				BC93C9F72532832E009D2E74 /* ProductView.swift */,
+				BC18F1422532910000348A10 /* Product */,
+				BC18F1532532951E00348A10 /* ConfirmOrder */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -161,6 +169,31 @@
 				6499837E2532288D0064EB9F /* Assets.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		BC18F1422532910000348A10 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				BC93C9F72532832E009D2E74 /* ProductView.swift */,
+				BC18F1432532912F00348A10 /* BuyerInfoView.swift */,
+				BC18F14B253291C700348A10 /* ButtonsView.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		BC18F1532532951E00348A10 /* ConfirmOrder */ = {
+			isa = PBXGroup;
+			children = (
+				BC18F1542532954400348A10 /* ConfirmOrderView.swift */,
+			);
+			path = ConfirmOrder;
+			sourceTree = "<group>";
+		};
+		BC18F159253296A400348A10 /* OrderConfirmed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = OrderConfirmed;
 			sourceTree = "<group>";
 		};
 		BC93C9F325327D4D009D2E74 /* CollectiveBuying */ = {
@@ -303,11 +336,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC18F1552532954400348A10 /* ConfirmOrderView.swift in Sources */,
 				BC93C9BD2532560A009D2E74 /* OffersTypeView.swift in Sources */,
 				6499837D2532288B0064EB9F /* CollectiveBuyingView.swift in Sources */,
 				BC93C9EC25326531009D2E74 /* OffersCollectionView.swift in Sources */,
 				BC93C9E12532622E009D2E74 /* OfferCollectionView.swift in Sources */,
 				BC93C9F82532832E009D2E74 /* ProductView.swift in Sources */,
+				BC18F1442532912F00348A10 /* BuyerInfoView.swift in Sources */,
+				BC18F14C253291C700348A10 /* ButtonsView.swift in Sources */,
 				6499837B2532288B0064EB9F /* GethackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
