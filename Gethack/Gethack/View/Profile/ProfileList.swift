@@ -21,7 +21,7 @@ struct ProfileList: View {
                         Image("Arrow")
                     }
                 })
-                .buttonStyle(PlainButtonStyle())
+                
             HStack{
                 Image("Configuration")
                 Text("Ver meus serviços trocados")
@@ -42,6 +42,7 @@ struct ProfileList: View {
             }
             
         }
+        
         
         
         

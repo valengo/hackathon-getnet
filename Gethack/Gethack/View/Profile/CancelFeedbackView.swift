@@ -24,8 +24,8 @@ struct CancelFeedbackView: View {
                 label: {
                     Image("TelaInicial")
                 })
-            
         }
+        .padding()
     }
 }
 
