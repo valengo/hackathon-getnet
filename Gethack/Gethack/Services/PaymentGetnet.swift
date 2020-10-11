@@ -30,11 +30,18 @@ enum APIError: Error, LocalizedError {
 }
 
 class PaymentGetnet: PaymentServiceProtocol {
-    
     // TODO configure using env
     let api = "api-sandbox.getnet.com.br"
     let jsonDecoder = JSONDecoder()
     var cancellables: [AnyCancellable] = []
+    
+    func makePayment(with creditCard: Card) -> AnyPublisher<CreditCardPaymentReceipt, Error> {
+        return authenticate().flatMap({authDTO in
+            return self.getCardToken(authToken: authDTO.access_token, requestDTO: RequestCardTokenDTO(card_number: creditCard.cardNumber, customer_id: "12345")).eraseToAnyPublisher().flatMap({ [self]cardDTO in
+                return creditPayment(authToken: authDTO.access_token, requestDTO: PaymentMappers.map(card: creditCard, cardToken: cardDTO.number_token))
+            })
+        }).eraseToAnyPublisher()
+    }
     
     func makePayment() {
         authenticate()
@@ -97,7 +104,7 @@ class PaymentGetnet: PaymentServiceProtocol {
             .eraseToAnyPublisher()
     }
     
-    private func creditPayment(authToken: String, requestDTO: RequestCreditPaymentDTO) -> AnyPublisher<ResponseCreditPaymentDTO, Error> {
+    private func creditPayment(authToken: String, requestDTO: RequestCreditPaymentDTO) -> AnyPublisher<CreditCardPaymentReceipt, Error> {
         
         guard let request = buildPaymentCreditCardRequest(authToken: authToken, creditDTO: requestDTO) else {return Fail(error: APIError.parserError(reason: "Failed building request")).eraseToAnyPublisher()}
         
@@ -114,6 +121,7 @@ class PaymentGetnet: PaymentServiceProtocol {
                 return data
             }
             .decode(type: ResponseCreditPaymentDTO.self, decoder: JSONDecoder())
+            .map(PaymentMappers.map(responseDTO:))
             .eraseToAnyPublisher()
     }
     

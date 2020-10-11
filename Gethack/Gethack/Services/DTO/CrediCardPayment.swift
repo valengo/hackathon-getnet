@@ -23,7 +23,7 @@ class RequestCreditPaymentDTO: Codable {
 
 struct ResponseCreditPaymentDTO: Decodable {
     let payment_id, seller_id: String
-    let amount: Int
+    let amount: Double
     let currency, order_id, status, received_at: String
     let credit: CreditResponseDTO
 }

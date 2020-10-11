@@ -6,5 +6,9 @@
 //
 
 struct Card {
-    
+    let cardNumber: String
+    let expirationMonth: String
+    let expirationYear: String
+    let securityCode: String
+    let cardholderName: String
 }

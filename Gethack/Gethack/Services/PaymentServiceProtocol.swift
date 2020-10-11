@@ -8,7 +8,7 @@
 import Combine
 
 protocol PaymentServiceProtocol {
-    func makePayment()
+    func makePayment(with creditCard: Card) -> AnyPublisher<CreditCardPaymentReceipt, Error>
 }
 
 

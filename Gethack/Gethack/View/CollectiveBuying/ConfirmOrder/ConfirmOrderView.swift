@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ConfirmOrderView: View {
+    
+    @ObservedObject var viewModel = ConfirmOrderViewModel()
+    
     var body: some View {
         VStack {
             PaymentMethodView()
@@ -15,10 +18,12 @@ struct ConfirmOrderView: View {
                 .padding(.bottom, 30)
                 .frame(width: UIScreen.main.bounds.width, alignment: .leading)
             
-            CardInfoView()
+            CardInfoView(card: $viewModel.card)
                 .padding(.leading)
             Spacer()
-            NavigationLink(destination: OrderConfirmedView()){
+            
+            NavigationLink(destination: OrderConfirmedView()
+                            .onAppear {viewModel.payWithCreditCard()}){
                 Image("Confirm")
             }
         }
