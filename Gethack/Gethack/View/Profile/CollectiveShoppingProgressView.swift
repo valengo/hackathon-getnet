@@ -14,40 +14,44 @@ struct CollectiveShoppingProgressView: View {
                     NavigationLink(
                         destination: CollectiveShoppingProductView(),
                         label: {
-                    HStack {
-                        Image("Clock")
-                            .padding(.horizontal)
-                        VStack(alignment: .leading) {
-                            Text("Cocoa-Cola Lata - 50un")
-                                .bold()
-                            Text("Em progresso")
-                        }
-                        Spacer()
-                        Image("Arrow")
-                    }
+                            HStack {
+                                Image("Clock")
+                                    .padding(.horizontal)
+                                VStack(alignment: .leading) {
+                                    Text("Cocoa-Cola Lata - 50un")
+                                        .bold()
+                                    Text("Em progresso")
+                                }
+                            }
                         })
-                    HStack {
-                        Image("Check")
-                            .padding(.horizontal)
-                        VStack(alignment: .leading) {
-                            Text("Batom Líquido Eudora - 20un")
-                                .bold()
-                            Text("Finalizado")
-                        }
-                        Spacer()
-                        Image("Arrow")
-                    }
-                    HStack {
-                        Image("Check")
-                            .padding(.horizontal)
-                        VStack(alignment: .leading) {
-                            Text("Fralda Pampers G - 45un")
-                                .bold()
-                            Text("Finalizado")
-                        }
-                        Spacer()
-                        Image("Arrow")
-                    }
+                    
+                    NavigationLink(
+                        destination: CollectiveShoppingProductView(),
+                        label: {
+                            HStack {
+                                Image("Check")
+                                    .padding(.horizontal)
+                                VStack(alignment: .leading) {
+                                    Text("Batom Líquido Eudora - 20un")
+                                        .bold()
+                                    Text("Finalizado")
+                                }
+                            }
+                        })
+                    
+                    NavigationLink(
+                        destination: CollectiveShoppingProductView(),
+                        label: {
+                            HStack {
+                                Image("Check")
+                                    .padding(.horizontal)
+                                VStack(alignment: .leading) {
+                                    Text("Fralda Pampers G - 45un")
+                                        .bold()
+                                    Text("Finalizado")
+                                }
+                            }
+                        })
                     
                 }
             

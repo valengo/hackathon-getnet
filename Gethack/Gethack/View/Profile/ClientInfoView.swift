@@ -11,34 +11,37 @@ struct ClientInfoView: View {
     var body: some View {
         VStack (alignment: .leading){
             HStack {
-                VStack {
-                    Text("Compras Coletivas")
+                VStack(alignment: .center) {
+                    Text("Compras")
+                    Text("Coletivas")
                         .padding(.bottom, 5)
                     Text("03")
                         .font(.system(.largeTitle)).bold()
                         .foregroundColor(.red)
                 }
-                .frame(width: 80)
+                .frame(width: 100)
                 Spacer()
-                VStack {
-                    Text("Serviços Trocados")
+                VStack(alignment: .center) {
+                    Text("Serviços")
+                    Text("Trocados")
                         .padding(.bottom, 5)
                     Text("01")
                         .font(.system(.largeTitle)).bold()
                         .foregroundColor(.red)
                 }
-                .frame(width: 80)
+                .frame(width: 100)
                 Spacer()
-                VStack {
-                    Text("Produtos Trocados")
+                VStack(alignment: .center) {
+                    Text("Produtos")
+                    Text("Trocados")
                         .padding(.bottom, 5)
                     Text("00")
                         .font(.system(.largeTitle)).bold()
                         .foregroundColor(.red)
                 }
-                .frame(width: 80)
+                .frame(width: 100)
             }.frame(width: UIScreen.main.bounds.width - 50)
-            .padding(.bottom, 40)
+            .padding(.bottom, 20)
             
             VStack (alignment: .leading) {
                 Text("Endereço")

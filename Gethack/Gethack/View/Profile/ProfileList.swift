@@ -17,30 +17,32 @@ struct ProfileList: View {
                     HStack{
                         Image("ShoppingCart")
                         Text("Ver minhas compras coletivas")
-                        Spacer()
-                        Image("Arrow")
                     }
                 })
-                
-            HStack{
-                Image("Configuration")
-                Text("Ver meus serviços trocados")
-                Spacer()
-                Image("Arrow")
-            }
-            HStack{
-                Image("Products")
-                Text("Ver meus produtos trocados")
-                Spacer()
-                Image("Arrow")
-            }
-            HStack{
-                Image("Cards")
-                Text("Ver meus cartões")
-                Spacer()
-                Image("Arrow")
-            }
-            
+            NavigationLink (
+                destination: CollectiveShoppingProgressView(),
+                label: {
+                    HStack{
+                        Image("Configuration")
+                        Text("Ver meus serviços trocados")
+                    }
+                })
+            NavigationLink (
+                destination: CollectiveShoppingProgressView(),
+                label: {
+                    HStack{
+                        Image("Products")
+                        Text("Ver meus produtos trocados")
+                    }
+                })
+            NavigationLink (
+                destination: CollectiveShoppingProgressView(),
+                label: {
+                    HStack{
+                        Image("Cards")
+                        Text("Ver meus cartões")
+                    }
+                })
         }
         
         
