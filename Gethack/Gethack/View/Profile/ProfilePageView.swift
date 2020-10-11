@@ -21,7 +21,7 @@ struct ProfilePageView: View {
                         .font(.system(size: 25, weight: .bold))
                         .padding(.bottom, 20)
                     ClientInfoView()
-                    ProfileList()
+                    ProfileListView()
             }
             .padding()
             .navigationBarTitle("Meu Perfil", displayMode: .inline)

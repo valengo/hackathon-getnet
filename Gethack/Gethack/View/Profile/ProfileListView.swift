@@ -1,5 +1,5 @@
 //
-//  ProfileList.swift
+//  ProfileListView.swift
 //  Gethack
 //
 //  Created by Eduarda Mello on 10/10/20.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ProfileList: View {
+struct ProfileListView: View {
     var body: some View {
         
         List {
@@ -54,6 +54,6 @@ struct ProfileList: View {
 
 struct ProfileList_Previews: PreviewProvider {
     static var previews: some View {
-        ProfileList()
+        ProfileListView()
     }
 }
