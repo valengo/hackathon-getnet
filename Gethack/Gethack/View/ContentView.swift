@@ -7,9 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    @ObservedObject var viewModel = CreditCardPaymentViewModel()
-    
+struct ContentView: View {    
     var body: some View {
         Text("Hello, world!")
             .padding()
