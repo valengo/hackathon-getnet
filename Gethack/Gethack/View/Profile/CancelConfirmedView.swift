@@ -15,6 +15,9 @@ struct CancelConfirmedView: View {
             Spacer()
             Text("Agradecemos sua resposta!")
             Spacer()
+            Button(action: {}, label: {
+                Image("TelaInicial")
+            })
         }
     }
 }

@@ -19,7 +19,7 @@
 		BC18F15B253296FF00348A10 /* OrderConfirmedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F15A253296FF00348A10 /* OrderConfirmedView.swift */; };
 		BC18F16525329A2100348A10 /* ProfilePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F16425329A2100348A10 /* ProfilePageView.swift */; };
 		BC18F16D25329F3D00348A10 /* ClientInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F16C25329F3D00348A10 /* ClientInfoView.swift */; };
-		BC18F1722532A18500348A10 /* ProfileList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F1712532A18500348A10 /* ProfileList.swift */; };
+		BC18F1722532A18500348A10 /* ProfileListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F1712532A18500348A10 /* ProfileListView.swift */; };
 		BC18F1772532ACED00348A10 /* PaymentMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F1762532ACED00348A10 /* PaymentMethodView.swift */; };
 		BC18F17C2532B1D100348A10 /* CardInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F17B2532B1D100348A10 /* CardInfoView.swift */; };
 		BC18F18125332E9600348A10 /* OrderInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F18025332E9600348A10 /* OrderInfoView.swift */; };
@@ -33,6 +33,18 @@
 		BC6D66D1253340A20084EAA8 /* CancelConfirmedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66D0253340A20084EAA8 /* CancelConfirmedView.swift */; };
 		BC6D66D6253348120084EAA8 /* GoalAchievedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66D5253348120084EAA8 /* GoalAchievedView.swift */; };
 		BC6D66DB253348FA0084EAA8 /* ProductAchievedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66DA253348F90084EAA8 /* ProductAchievedView.swift */; };
+		BC6D66E1253366C40084EAA8 /* HomeFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66E0253366C40084EAA8 /* HomeFeedView.swift */; };
+		BC6D66EA2533673F0084EAA8 /* ExchangeFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66E92533673F0084EAA8 /* ExchangeFeedView.swift */; };
+		BC6D66F225336BBE0084EAA8 /* CancelReasonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66F125336BBE0084EAA8 /* CancelReasonsView.swift */; };
+		BC6D66FA253373C10084EAA8 /* ServicesTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66F9253373C10084EAA8 /* ServicesTypeView.swift */; };
+		BC6D66FF253374450084EAA8 /* ServicesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66FE253374440084EAA8 /* ServicesListView.swift */; };
+		BC6D67042533770F0084EAA8 /* ServiceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D67032533770F0084EAA8 /* ServiceDetailView.swift */; };
+		BC6D6709253378D20084EAA8 /* RequesterInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D6708253378D20084EAA8 /* RequesterInfoView.swift */; };
+		BC6D670E25337A710084EAA8 /* ServiceInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D670D25337A710084EAA8 /* ServiceInfoView.swift */; };
+		BC6D671625337E040084EAA8 /* PriceInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D671525337E030084EAA8 /* PriceInputView.swift */; };
+		BC6D671B253381870084EAA8 /* DeadlineInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D671A253381870084EAA8 /* DeadlineInputView.swift */; };
+		BC6D67202533820B0084EAA8 /* CommentInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D671F2533820B0084EAA8 /* CommentInputView.swift */; };
+		BC6D67252533829A0084EAA8 /* ProposalSentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D67242533829A0084EAA8 /* ProposalSentView.swift */; };
 		BC93C9BD2532560A009D2E74 /* OffersTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93C9BC2532560A009D2E74 /* OffersTypeView.swift */; };
 		BC93C9E12532622E009D2E74 /* OfferCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93C9E02532622E009D2E74 /* OfferCollectionView.swift */; };
 		BC93C9EC25326531009D2E74 /* OffersCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93C9EB25326531009D2E74 /* OffersCollectionView.swift */; };
@@ -75,7 +87,7 @@
 		BC18F15A253296FF00348A10 /* OrderConfirmedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderConfirmedView.swift; sourceTree = "<group>"; };
 		BC18F16425329A2100348A10 /* ProfilePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageView.swift; sourceTree = "<group>"; };
 		BC18F16C25329F3D00348A10 /* ClientInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientInfoView.swift; sourceTree = "<group>"; };
-		BC18F1712532A18500348A10 /* ProfileList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileList.swift; sourceTree = "<group>"; };
+		BC18F1712532A18500348A10 /* ProfileListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileListView.swift; sourceTree = "<group>"; };
 		BC18F1762532ACED00348A10 /* PaymentMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodView.swift; sourceTree = "<group>"; };
 		BC18F17B2532B1D100348A10 /* CardInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoView.swift; sourceTree = "<group>"; };
 		BC18F18025332E9600348A10 /* OrderInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderInfoView.swift; sourceTree = "<group>"; };
@@ -89,6 +101,18 @@
 		BC6D66D0253340A20084EAA8 /* CancelConfirmedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelConfirmedView.swift; sourceTree = "<group>"; };
 		BC6D66D5253348120084EAA8 /* GoalAchievedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalAchievedView.swift; sourceTree = "<group>"; };
 		BC6D66DA253348F90084EAA8 /* ProductAchievedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAchievedView.swift; sourceTree = "<group>"; };
+		BC6D66E0253366C40084EAA8 /* HomeFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedView.swift; sourceTree = "<group>"; };
+		BC6D66E92533673F0084EAA8 /* ExchangeFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeFeedView.swift; sourceTree = "<group>"; };
+		BC6D66F125336BBE0084EAA8 /* CancelReasonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelReasonsView.swift; sourceTree = "<group>"; };
+		BC6D66F9253373C10084EAA8 /* ServicesTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTypeView.swift; sourceTree = "<group>"; };
+		BC6D66FE253374440084EAA8 /* ServicesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesListView.swift; sourceTree = "<group>"; };
+		BC6D67032533770F0084EAA8 /* ServiceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDetailView.swift; sourceTree = "<group>"; };
+		BC6D6708253378D20084EAA8 /* RequesterInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequesterInfoView.swift; sourceTree = "<group>"; };
+		BC6D670D25337A710084EAA8 /* ServiceInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceInfoView.swift; sourceTree = "<group>"; };
+		BC6D671525337E030084EAA8 /* PriceInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceInputView.swift; sourceTree = "<group>"; };
+		BC6D671A253381870084EAA8 /* DeadlineInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadlineInputView.swift; sourceTree = "<group>"; };
+		BC6D671F2533820B0084EAA8 /* CommentInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentInputView.swift; sourceTree = "<group>"; };
+		BC6D67242533829A0084EAA8 /* ProposalSentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProposalSentView.swift; sourceTree = "<group>"; };
 		BC93C9BC2532560A009D2E74 /* OffersTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersTypeView.swift; sourceTree = "<group>"; };
 		BC93C9E02532622E009D2E74 /* OfferCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCollectionView.swift; sourceTree = "<group>"; };
 		BC93C9EB25326531009D2E74 /* OffersCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersCollectionView.swift; sourceTree = "<group>"; };
@@ -188,9 +212,11 @@
 		649983AF2532298C0064EB9F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				649983B02532299E0064EB9F /* Assets */,
 				BC6D66A7253332C20084EAA8 /* AppView.swift */,
+				649983B02532299E0064EB9F /* Assets */,
+				BC6D66DF253366B50084EAA8 /* Home */,
 				BC18F1852533302300348A10 /* CollectiveBuying */,
+				BC6D66E8253367130084EAA8 /* Exchange */,
 				BC18F162253299E000348A10 /* Profile */,
 			);
 			path = View;
@@ -239,13 +265,14 @@
 			children = (
 				BC18F16425329A2100348A10 /* ProfilePageView.swift */,
 				BC18F16C25329F3D00348A10 /* ClientInfoView.swift */,
-				BC18F1712532A18500348A10 /* ProfileList.swift */,
+				BC18F1712532A18500348A10 /* ProfileListView.swift */,
 				BC6D66B2253337EB0084EAA8 /* CollectiveShoppingProgressView.swift */,
 				BC6D66B7253339D20084EAA8 /* CollectiveShoppingProductView.swift */,
 				BC6D66BC25333C260084EAA8 /* CollectiveShoppingProductInfoView.swift */,
 				BC6D66C125333CA60084EAA8 /* CollectiveShoppingProductSellerView.swift */,
 				BC6D66C625333DDE0084EAA8 /* CancelView.swift */,
 				BC6D66CB25333F360084EAA8 /* CancelFeedbackView.swift */,
+				BC6D66F125336BBE0084EAA8 /* CancelReasonsView.swift */,
 				BC6D66D0253340A20084EAA8 /* CancelConfirmedView.swift */,
 				BC6D66D5253348120084EAA8 /* GoalAchievedView.swift */,
 				BC6D66DA253348F90084EAA8 /* ProductAchievedView.swift */,
@@ -262,6 +289,31 @@
 				BC18F159253296A400348A10 /* OrderConfirmed */,
 			);
 			path = CollectiveBuying;
+			sourceTree = "<group>";
+		};
+		BC6D66DF253366B50084EAA8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BC6D66E0253366C40084EAA8 /* HomeFeedView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BC6D66E8253367130084EAA8 /* Exchange */ = {
+			isa = PBXGroup;
+			children = (
+				BC6D66E92533673F0084EAA8 /* ExchangeFeedView.swift */,
+				BC6D66F9253373C10084EAA8 /* ServicesTypeView.swift */,
+				BC6D66FE253374440084EAA8 /* ServicesListView.swift */,
+				BC6D67032533770F0084EAA8 /* ServiceDetailView.swift */,
+				BC6D670D25337A710084EAA8 /* ServiceInfoView.swift */,
+				BC6D6708253378D20084EAA8 /* RequesterInfoView.swift */,
+				BC6D671525337E030084EAA8 /* PriceInputView.swift */,
+				BC6D671A253381870084EAA8 /* DeadlineInputView.swift */,
+				BC6D671F2533820B0084EAA8 /* CommentInputView.swift */,
+				BC6D67242533829A0084EAA8 /* ProposalSentView.swift */,
+			);
+			path = Exchange;
 			sourceTree = "<group>";
 		};
 		BC93C9F325327D4D009D2E74 /* CollectiveBuyingFeed */ = {
@@ -408,7 +460,7 @@
 				BC18F18125332E9600348A10 /* OrderInfoView.swift in Sources */,
 				BC6D66C225333CA60084EAA8 /* CollectiveShoppingProductSellerView.swift in Sources */,
 				BC6D66DB253348FA0084EAA8 /* ProductAchievedView.swift in Sources */,
-				BC18F1722532A18500348A10 /* ProfileList.swift in Sources */,
+				BC18F1722532A18500348A10 /* ProfileListView.swift in Sources */,
 				BC6D66B3253337EC0084EAA8 /* CollectiveShoppingProgressView.swift in Sources */,
 				BC6D66B8253339D20084EAA8 /* CollectiveShoppingProductView.swift in Sources */,
 				BC18F16D25329F3D00348A10 /* ClientInfoView.swift in Sources */,
@@ -420,16 +472,28 @@
 				BC6D66C725333DDE0084EAA8 /* CancelView.swift in Sources */,
 				BC93C9E12532622E009D2E74 /* OfferCollectionView.swift in Sources */,
 				BC6D66CC25333F360084EAA8 /* CancelFeedbackView.swift in Sources */,
+				BC6D66F225336BBE0084EAA8 /* CancelReasonsView.swift in Sources */,
+				BC6D67042533770F0084EAA8 /* ServiceDetailView.swift in Sources */,
 				BC6D66BD25333C260084EAA8 /* CollectiveShoppingProductInfoView.swift in Sources */,
+				BC6D671625337E040084EAA8 /* PriceInputView.swift in Sources */,
 				BC6D66D6253348120084EAA8 /* GoalAchievedView.swift in Sources */,
 				BC93C9F82532832E009D2E74 /* ProductView.swift in Sources */,
+				BC6D66FA253373C10084EAA8 /* ServicesTypeView.swift in Sources */,
 				BC6D66A8253332C20084EAA8 /* AppView.swift in Sources */,
+				BC6D66E1253366C40084EAA8 /* HomeFeedView.swift in Sources */,
 				BC18F1442532912F00348A10 /* BuyerInfoView.swift in Sources */,
+				BC6D67202533820B0084EAA8 /* CommentInputView.swift in Sources */,
 				BC18F14C253291C700348A10 /* ButtonsView.swift in Sources */,
+				BC6D671B253381870084EAA8 /* DeadlineInputView.swift in Sources */,
 				BC6D66D1253340A20084EAA8 /* CancelConfirmedView.swift in Sources */,
 				BC18F1772532ACED00348A10 /* PaymentMethodView.swift in Sources */,
+				BC6D670E25337A710084EAA8 /* ServiceInfoView.swift in Sources */,
+				BC6D66FF253374450084EAA8 /* ServicesListView.swift in Sources */,
 				6499837B2532288B0064EB9F /* GethackApp.swift in Sources */,
+				BC6D6709253378D20084EAA8 /* RequesterInfoView.swift in Sources */,
 				BC18F17C2532B1D100348A10 /* CardInfoView.swift in Sources */,
+				BC6D67252533829A0084EAA8 /* ProposalSentView.swift in Sources */,
+				BC6D66EA2533673F0084EAA8 /* ExchangeFeedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

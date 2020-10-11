@@ -10,18 +10,32 @@ import SwiftUI
 struct AppView: View {
     var body: some View {
         TabView {
+            
+            HomeFeedView()
+                .tabItem {
+                    Image("Home")
+                    Text("Home")
+                }
+            
             CollectiveBuyingView()
                 .tabItem {
-                    Image("BuyingIcon")
-                    Text("Compras")
-                }
-            ProfilePageView()
-                .tabItem {
-                    Image("BuyingIcon")
+                    Image("Compras")
                     Text("Compras")
                 }
             
+            ExchangeFeedView()
+                .tabItem {
+                    Image("Permuta")
+                    Text("Permuta")
+                }
+            
+            ProfilePageView()
+                .tabItem {
+                    Image("PerfilCinza")
+                    Text("Perfil")
+                }
         }
+        .accentColor(.ourRed)
     }
 }
 
