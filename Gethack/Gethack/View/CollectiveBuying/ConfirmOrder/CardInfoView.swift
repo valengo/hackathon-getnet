@@ -10,6 +10,8 @@ import SwiftUI
 struct CardInfoView: View {
     
     @State private var textField: String = ""
+        
+    @Binding var card: CardViewModel
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -18,34 +20,29 @@ struct CardInfoView: View {
                 .padding(.bottom)
             Text("Número do cartão")
                 .font(.system(size: 20))
-            TextField("**** 4321", text: $textField)
+            TextField("**** 4321", text: $card.cardNumber)
             
             HStack {
                 VStack(alignment: .leading) {
                     Text("Validade")
                         .font(.system(size: 20))
-                    TextField("mm/aaaa", text: $textField)
+                    TextField("mm/aaaa", text: $card.validity)
                 }
                 VStack(alignment: .leading) {
                     Text("CVV")
                         .font(.system(size: 20))
-                    TextField("***", text: $textField)
+                    TextField("***", text: $card.securityCode)
                 }
             }
-            
             Text("Nome do Titular")
                 .font(.system(size: 20))
-            TextField("Digite o nome", text: $textField)
-            
-            Text("CPF/CNPJ do Titular")
-                .font(.system(size: 20))
-            TextField("*********20", text: $textField)
+            TextField("Digite o nome", text: $card.cardholderName)
         }
     }
 }
 
 struct CardInfoView_Previews: PreviewProvider {
     static var previews: some View {
-        CardInfoView()
+        CardInfoView(card: .constant(CardViewModel()))
     }
 }
