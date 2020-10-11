@@ -10,10 +10,23 @@ import SwiftUI
 struct AppView: View {
     var body: some View {
         TabView {
+            
+            HomeFeedView()
+                .tabItem {
+                    Image("Home")
+                    Text("Home")
+                }
+            
             CollectiveBuyingView()
                 .tabItem {
                     Image("BuyingIcon")
                     Text("Compras")
+                }
+            
+            ExchangeFeedView()
+                .tabItem {
+                    Image("Permuta")
+                    Text("Permuta")
                 }
             
             ProfilePageView()
