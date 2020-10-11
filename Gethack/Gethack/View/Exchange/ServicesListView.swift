@@ -10,20 +10,25 @@ import SwiftUI
 struct ServicesListView: View {
     var body: some View {
         List {
-            HStack {
-                Image("Img1")
-                VStack(alignment: .leading) {
-                    Text("Identidade Visual")
-                        .font(.system(size: 25, weight: .bold))
-                        .padding(.bottom, 5)
-                    Text("Quero uma logo para meu serviço como eletricista")
-                        .font(.system(size: 22))
-                        .padding(.bottom, 10)
-                    Text("400 pontos")
-                        .font(.system(size: 25, weight: .bold))
-                        .foregroundColor(.ourRed)
-                }
-            }
+            NavigationLink(
+                destination: ServiceDetailView(),
+                label: {
+                    HStack {
+                        Image("Img1")
+                        VStack(alignment: .leading) {
+                            Text("Identidade Visual")
+                                .font(.system(size: 25, weight: .bold))
+                                .padding(.bottom, 5)
+                            Text("Quero uma logo para meu serviço como eletricista")
+                                .font(.system(size: 22))
+                                .padding(.bottom, 10)
+                            Text("400 pontos")
+                                .font(.system(size: 25, weight: .bold))
+                                .foregroundColor(.ourRed)
+                        }
+                    }
+                })
+            
             HStack {
                 Image("Img2")
                 VStack(alignment: .leading) {
