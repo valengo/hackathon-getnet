@@ -41,6 +41,10 @@ struct ClientInfoView: View {
                 Text("Endereço")
                     .bold()
                 Text("Rua Cláudio Morelli, 72, Atuba")
+                    .padding(.bottom, 5)
+                Text("CNPJ")
+                    .bold()
+                Text("12.345.678/1999-12")
             }
         }
     }
