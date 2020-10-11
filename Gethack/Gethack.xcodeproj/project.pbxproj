@@ -33,24 +33,24 @@
 		649984BD253347070064EB9F /* ConfirmOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649984BC253347070064EB9F /* ConfirmOrderViewModel.swift */; };
 		649984EA2533689D0064EB9F /* PaymentMappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649984E92533689D0064EB9F /* PaymentMappers.swift */; };
 		649984EF25338EE80064EB9F /* CreditCardPaymentReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649984EE25338EE70064EB9F /* CreditCardPaymentReceipt.swift */; };
+		6499850B253399680064EB9F /* ProfileListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F1712532A18500348A10 /* ProfileListView.swift */; };
+		649985122533997F0064EB9F /* PaymentMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F1762532ACED00348A10 /* PaymentMethodView.swift */; };
+		64998516253399830064EB9F /* CancelConfirmedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66D0253340A20084EAA8 /* CancelConfirmedView.swift */; };
+		6499851A253399870064EB9F /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66A7253332C20084EAA8 /* AppView.swift */; };
 		BC18F1442532912F00348A10 /* BuyerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F1432532912F00348A10 /* BuyerInfoView.swift */; };
 		BC18F14C253291C700348A10 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F14B253291C700348A10 /* ButtonsView.swift */; };
 		BC18F1552532954400348A10 /* ConfirmOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F1542532954400348A10 /* ConfirmOrderView.swift */; };
 		BC18F15B253296FF00348A10 /* OrderConfirmedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F15A253296FF00348A10 /* OrderConfirmedView.swift */; };
 		BC18F16525329A2100348A10 /* ProfilePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F16425329A2100348A10 /* ProfilePageView.swift */; };
 		BC18F16D25329F3D00348A10 /* ClientInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F16C25329F3D00348A10 /* ClientInfoView.swift */; };
-		BC18F1722532A18500348A10 /* ProfileListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F1712532A18500348A10 /* ProfileListView.swift */; };
-		BC18F1772532ACED00348A10 /* PaymentMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F1762532ACED00348A10 /* PaymentMethodView.swift */; };
 		BC18F17C2532B1D100348A10 /* CardInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F17B2532B1D100348A10 /* CardInfoView.swift */; };
 		BC18F18125332E9600348A10 /* OrderInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F18025332E9600348A10 /* OrderInfoView.swift */; };
-		BC6D66A8253332C20084EAA8 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66A7253332C20084EAA8 /* AppView.swift */; };
 		BC6D66B3253337EC0084EAA8 /* CollectiveShoppingProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66B2253337EB0084EAA8 /* CollectiveShoppingProgressView.swift */; };
 		BC6D66B8253339D20084EAA8 /* CollectiveShoppingProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66B7253339D20084EAA8 /* CollectiveShoppingProductView.swift */; };
 		BC6D66BD25333C260084EAA8 /* CollectiveShoppingProductInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66BC25333C260084EAA8 /* CollectiveShoppingProductInfoView.swift */; };
 		BC6D66C225333CA60084EAA8 /* CollectiveShoppingProductSellerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66C125333CA60084EAA8 /* CollectiveShoppingProductSellerView.swift */; };
 		BC6D66C725333DDE0084EAA8 /* CancelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66C625333DDE0084EAA8 /* CancelView.swift */; };
 		BC6D66CC25333F360084EAA8 /* CancelFeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66CB25333F360084EAA8 /* CancelFeedbackView.swift */; };
-		BC6D66D1253340A20084EAA8 /* CancelConfirmedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66D0253340A20084EAA8 /* CancelConfirmedView.swift */; };
 		BC6D66D6253348120084EAA8 /* GoalAchievedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66D5253348120084EAA8 /* GoalAchievedView.swift */; };
 		BC6D66DB253348FA0084EAA8 /* ProductAchievedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66DA253348F90084EAA8 /* ProductAchievedView.swift */; };
 		BC6D66E1253366C40084EAA8 /* HomeFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66E0253366C40084EAA8 /* HomeFeedView.swift */; };
@@ -620,6 +620,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6499851A253399870064EB9F /* AppView.swift in Sources */,
+				64998516253399830064EB9F /* CancelConfirmedView.swift in Sources */,
+				649985122533997F0064EB9F /* PaymentMethodView.swift in Sources */,
+				6499850B253399680064EB9F /* ProfileListView.swift in Sources */,
 				649984A6253346E20064EB9F /* UpdateAccount.swift in Sources */,
 				BC18F1552532954400348A10 /* ConfirmOrderView.swift in Sources */,
 				BC18F18125332E9600348A10 /* OrderInfoView.swift in Sources */,
@@ -627,9 +631,7 @@
 				649984A7253346E20064EB9F /* AnnounceServiceNeed.swift in Sources */,
 				BC6D66C225333CA60084EAA8 /* CollectiveShoppingProductSellerView.swift in Sources */,
 				BC6D66DB253348FA0084EAA8 /* ProductAchievedView.swift in Sources */,
-				BC18F1722532A18500348A10 /* ProfileList.swift in Sources */,
 				649984A2253346E20064EB9F /* BuyProduct.swift in Sources */,
-				BC18F1722532A18500348A10 /* ProfileListView.swift in Sources */,
 				BC6D66B3253337EC0084EAA8 /* CollectiveShoppingProgressView.swift in Sources */,
 				BC6D66B8253339D20084EAA8 /* CollectiveShoppingProductView.swift in Sources */,
 				BC18F16D25329F3D00348A10 /* ClientInfoView.swift in Sources */,
@@ -659,22 +661,16 @@
 				649984B7253346FA0064EB9F /* PaymentServiceProtocol.swift in Sources */,
 				649984EA2533689D0064EB9F /* PaymentMappers.swift in Sources */,
 				649984A4253346E20064EB9F /* DeleteAccount.swift in Sources */,
-				BC6D66A8253332C20084EAA8 /* AppView.swift in Sources */,
 				649984B3253346FA0064EB9F /* Auth.swift in Sources */,
 				6499849D253346E20064EB9F /* ViewProduct.swift in Sources */,
 				BC6D66FA253373C10084EAA8 /* ServicesTypeView.swift in Sources */,
-				BC6D66A8253332C20084EAA8 /* AppView.swift in Sources */,
 				BC6D66E1253366C40084EAA8 /* HomeFeedView.swift in Sources */,
 				BC18F1442532912F00348A10 /* BuyerInfoView.swift in Sources */,
 				BC6D67202533820B0084EAA8 /* CommentInputView.swift in Sources */,
 				BC18F14C253291C700348A10 /* ButtonsView.swift in Sources */,
 				6499849C253346E20064EB9F /* AnnounceProductNeed.swift in Sources */,
-				BC6D66D1253340A20084EAA8 /* CancelConfirmedView.swift in Sources */,
-				BC18F1772532ACED00348A10 /* PaymentMethodView.swift in Sources */,
 				6499849E253346E20064EB9F /* SearchProduct.swift in Sources */,
 				BC6D671B253381870084EAA8 /* DeadlineInputView.swift in Sources */,
-				BC6D66D1253340A20084EAA8 /* CancelConfirmedView.swift in Sources */,
-				BC18F1772532ACED00348A10 /* PaymentMethodView.swift in Sources */,
 				BC6D670E25337A710084EAA8 /* ServiceInfoView.swift in Sources */,
 				BC6D66FF253374450084EAA8 /* ServicesListView.swift in Sources */,
 				6499837B2532288B0064EB9F /* GethackApp.swift in Sources */,
