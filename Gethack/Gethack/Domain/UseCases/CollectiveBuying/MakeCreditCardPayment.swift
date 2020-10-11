@@ -15,10 +15,7 @@ class MakeCreditCardPayment {
     
     init(paymentService: PaymentServiceProtocol = PaymentGetnet()) {
         self.paymentService = paymentService
-        
-        cancellable = paymentService.authenticate()
-            .sink(receiveCompletion: { print ("Received completion: \($0).") },
-                  receiveValue: { authDTO in print ("Received AuthDTO: \(authDTO).")})
+        paymentService.makePayment()
     }
     
     func perform() {

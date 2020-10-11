@@ -8,6 +8,7 @@
 import Combine
 
 protocol PaymentServiceProtocol {
+    func makePayment()
 }
 
 
