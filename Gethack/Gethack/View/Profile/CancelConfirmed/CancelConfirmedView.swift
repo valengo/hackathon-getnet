@@ -10,15 +10,28 @@ import SwiftUI
 struct CancelConfirmedView: View {
     var body: some View {
         VStack(alignment: .leading) {
-            Text("Sua compra foi cancelada")
-                .font(.system(size: 25, weight: .bold))
+            HStack {
+                Text("Sua compra foi cancelada")
+                    .font(.system(size: 25, weight: .bold))
+                Spacer()
+            }
+            
             Spacer()
-            Text("Agradecemos sua resposta!")
+            HStack{
+                Spacer()
+                Text("Agradecemos sua resposta!")
+                    .bold()
+                Spacer()
+            }
             Spacer()
             Button(action: {}, label: {
+                Spacer()
                 Image("TelaInicial")
+                Spacer()
             })
+            .padding(.bottom)
         }
+        .padding([.leading, .top, .trailing])
     }
 }
 
