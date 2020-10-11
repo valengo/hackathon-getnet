@@ -460,12 +460,8 @@
 		BC6D66E8253367130084EAA8 /* Exchange */ = {
 			isa = PBXGroup;
 			children = (
-				BC6D66E92533673F0084EAA8 /* ExchangeFeedView.swift */,
-				BC6D66F9253373C10084EAA8 /* ServicesTypeView.swift */,
-				BC6D66FE253374440084EAA8 /* ServicesListView.swift */,
-				BC6D67032533770F0084EAA8 /* ServiceDetailView.swift */,
-				BC6D670D25337A710084EAA8 /* ServiceInfoView.swift */,
-				BC6D6708253378D20084EAA8 /* RequesterInfoView.swift */,
+				BCF149352533AE16002FB665 /* ExchangeFeed */,
+				BCF149392533AE72002FB665 /* Detail */,
 				BC6D671525337E030084EAA8 /* PriceInputView.swift */,
 				BC6D671A253381870084EAA8 /* DeadlineInputView.swift */,
 				BC6D671F2533820B0084EAA8 /* CommentInputView.swift */,
@@ -545,6 +541,26 @@
 				BC6D66D0253340A20084EAA8 /* CancelConfirmedView.swift */,
 			);
 			path = CancelConfirmed;
+			sourceTree = "<group>";
+		};
+		BCF149352533AE16002FB665 /* ExchangeFeed */ = {
+			isa = PBXGroup;
+			children = (
+				BC6D66E92533673F0084EAA8 /* ExchangeFeedView.swift */,
+				BC6D66F9253373C10084EAA8 /* ServicesTypeView.swift */,
+				BC6D66FE253374440084EAA8 /* ServicesListView.swift */,
+			);
+			path = ExchangeFeed;
+			sourceTree = "<group>";
+		};
+		BCF149392533AE72002FB665 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				BC6D67032533770F0084EAA8 /* ServiceDetailView.swift */,
+				BC6D670D25337A710084EAA8 /* ServiceInfoView.swift */,
+				BC6D6708253378D20084EAA8 /* RequesterInfoView.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
