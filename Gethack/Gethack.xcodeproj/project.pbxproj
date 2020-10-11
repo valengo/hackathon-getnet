@@ -43,6 +43,14 @@
 		BC18F18125332E9600348A10 /* OrderInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F18025332E9600348A10 /* OrderInfoView.swift */; };
 		BC6D66A8253332C20084EAA8 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66A7253332C20084EAA8 /* AppView.swift */; };
 		BC6D66B3253337EC0084EAA8 /* CollectiveShoppingProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66B2253337EB0084EAA8 /* CollectiveShoppingProgressView.swift */; };
+		BC6D66B8253339D20084EAA8 /* CollectiveShoppingProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66B7253339D20084EAA8 /* CollectiveShoppingProductView.swift */; };
+		BC6D66BD25333C260084EAA8 /* CollectiveShoppingProductInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66BC25333C260084EAA8 /* CollectiveShoppingProductInfoView.swift */; };
+		BC6D66C225333CA60084EAA8 /* CollectiveShoppingProductSellerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66C125333CA60084EAA8 /* CollectiveShoppingProductSellerView.swift */; };
+		BC6D66C725333DDE0084EAA8 /* CancelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66C625333DDE0084EAA8 /* CancelView.swift */; };
+		BC6D66CC25333F360084EAA8 /* CancelFeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66CB25333F360084EAA8 /* CancelFeedbackView.swift */; };
+		BC6D66D1253340A20084EAA8 /* CancelConfirmedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66D0253340A20084EAA8 /* CancelConfirmedView.swift */; };
+		BC6D66D6253348120084EAA8 /* GoalAchievedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66D5253348120084EAA8 /* GoalAchievedView.swift */; };
+		BC6D66DB253348FA0084EAA8 /* ProductAchievedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D66DA253348F90084EAA8 /* ProductAchievedView.swift */; };
 		BC93C9BD2532560A009D2E74 /* OffersTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93C9BC2532560A009D2E74 /* OffersTypeView.swift */; };
 		BC93C9E12532622E009D2E74 /* OfferCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93C9E02532622E009D2E74 /* OfferCollectionView.swift */; };
 		BC93C9EC25326531009D2E74 /* OffersCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93C9EB25326531009D2E74 /* OffersCollectionView.swift */; };
@@ -109,6 +117,14 @@
 		BC18F18025332E9600348A10 /* OrderInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderInfoView.swift; sourceTree = "<group>"; };
 		BC6D66A7253332C20084EAA8 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		BC6D66B2253337EB0084EAA8 /* CollectiveShoppingProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectiveShoppingProgressView.swift; sourceTree = "<group>"; };
+		BC6D66B7253339D20084EAA8 /* CollectiveShoppingProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectiveShoppingProductView.swift; sourceTree = "<group>"; };
+		BC6D66BC25333C260084EAA8 /* CollectiveShoppingProductInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectiveShoppingProductInfoView.swift; sourceTree = "<group>"; };
+		BC6D66C125333CA60084EAA8 /* CollectiveShoppingProductSellerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectiveShoppingProductSellerView.swift; sourceTree = "<group>"; };
+		BC6D66C625333DDE0084EAA8 /* CancelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelView.swift; sourceTree = "<group>"; };
+		BC6D66CB25333F360084EAA8 /* CancelFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelFeedbackView.swift; sourceTree = "<group>"; };
+		BC6D66D0253340A20084EAA8 /* CancelConfirmedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelConfirmedView.swift; sourceTree = "<group>"; };
+		BC6D66D5253348120084EAA8 /* GoalAchievedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalAchievedView.swift; sourceTree = "<group>"; };
+		BC6D66DA253348F90084EAA8 /* ProductAchievedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAchievedView.swift; sourceTree = "<group>"; };
 		BC93C9BC2532560A009D2E74 /* OffersTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersTypeView.swift; sourceTree = "<group>"; };
 		BC93C9E02532622E009D2E74 /* OfferCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCollectionView.swift; sourceTree = "<group>"; };
 		BC93C9EB25326531009D2E74 /* OffersCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersCollectionView.swift; sourceTree = "<group>"; };
@@ -375,6 +391,14 @@
 				BC18F16C25329F3D00348A10 /* ClientInfoView.swift */,
 				BC18F1712532A18500348A10 /* ProfileList.swift */,
 				BC6D66B2253337EB0084EAA8 /* CollectiveShoppingProgressView.swift */,
+				BC6D66B7253339D20084EAA8 /* CollectiveShoppingProductView.swift */,
+				BC6D66BC25333C260084EAA8 /* CollectiveShoppingProductInfoView.swift */,
+				BC6D66C125333CA60084EAA8 /* CollectiveShoppingProductSellerView.swift */,
+				BC6D66C625333DDE0084EAA8 /* CancelView.swift */,
+				BC6D66CB25333F360084EAA8 /* CancelFeedbackView.swift */,
+				BC6D66D0253340A20084EAA8 /* CancelConfirmedView.swift */,
+				BC6D66D5253348120084EAA8 /* GoalAchievedView.swift */,
+				BC6D66DA253348F90084EAA8 /* ProductAchievedView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -535,9 +559,12 @@
 				BC18F18125332E9600348A10 /* OrderInfoView.swift in Sources */,
 				6499849B253346E20064EB9F /* Card.swift in Sources */,
 				649984A7253346E20064EB9F /* AnnounceServiceNeed.swift in Sources */,
+				BC6D66C225333CA60084EAA8 /* CollectiveShoppingProductSellerView.swift in Sources */,
+				BC6D66DB253348FA0084EAA8 /* ProductAchievedView.swift in Sources */,
 				BC18F1722532A18500348A10 /* ProfileList.swift in Sources */,
 				649984A2253346E20064EB9F /* BuyProduct.swift in Sources */,
 				BC6D66B3253337EC0084EAA8 /* CollectiveShoppingProgressView.swift in Sources */,
+				BC6D66B8253339D20084EAA8 /* CollectiveShoppingProductView.swift in Sources */,
 				BC18F16D25329F3D00348A10 /* ClientInfoView.swift in Sources */,
 				BC93C9BD2532560A009D2E74 /* OffersTypeView.swift in Sources */,
 				6499837D2532288B0064EB9F /* CollectiveBuyingView.swift in Sources */,
@@ -549,10 +576,14 @@
 				BC18F15B253296FF00348A10 /* OrderConfirmedView.swift in Sources */,
 				BC93C9EC25326531009D2E74 /* OffersCollectionView.swift in Sources */,
 				BC18F16525329A2100348A10 /* ProfilePageView.swift in Sources */,
+				BC6D66C725333DDE0084EAA8 /* CancelView.swift in Sources */,
 				BC93C9E12532622E009D2E74 /* OfferCollectionView.swift in Sources */,
 				649984B6253346FA0064EB9F /* PaymentGetnet.swift in Sources */,
 				649984A1253346E20064EB9F /* MakeCreditCardPayment.swift in Sources */,
 				649984B5253346FA0064EB9F /* CardToken.swift in Sources */,
+				BC6D66CC25333F360084EAA8 /* CancelFeedbackView.swift in Sources */,
+				BC6D66BD25333C260084EAA8 /* CollectiveShoppingProductInfoView.swift in Sources */,
+				BC6D66D6253348120084EAA8 /* GoalAchievedView.swift in Sources */,
 				BC93C9F82532832E009D2E74 /* ProductView.swift in Sources */,
 				649984B7253346FA0064EB9F /* PaymentServiceProtocol.swift in Sources */,
 				649984A4253346E20064EB9F /* DeleteAccount.swift in Sources */,
@@ -562,6 +593,7 @@
 				BC18F1442532912F00348A10 /* BuyerInfoView.swift in Sources */,
 				BC18F14C253291C700348A10 /* ButtonsView.swift in Sources */,
 				6499849C253346E20064EB9F /* AnnounceProductNeed.swift in Sources */,
+				BC6D66D1253340A20084EAA8 /* CancelConfirmedView.swift in Sources */,
 				BC18F1772532ACED00348A10 /* PaymentMethodView.swift in Sources */,
 				6499849E253346E20064EB9F /* SearchProduct.swift in Sources */,
 				6499837B2532288B0064EB9F /* GethackApp.swift in Sources */,

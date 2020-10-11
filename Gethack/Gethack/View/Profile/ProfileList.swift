@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ProfileList: View {
     var body: some View {
+        NavigationView {
         List {
             HStack{
                 Image("ShoppingCart")
@@ -35,6 +36,7 @@ struct ProfileList: View {
                 Image("Arrow")
             }
 
+        }
         }
     }
 }
