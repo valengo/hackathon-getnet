@@ -21,7 +21,7 @@ struct ServicesTypeView: View {
                 HStack {
                     Image("AssistenciaTecnica")
                     Image("OffersType-notSelected1png")
-                    Image("OffersType-notSelected1png")
+                    Image("Cosmeticos")
                     Image("OffersType-notSelected1png")
                 }
             })
