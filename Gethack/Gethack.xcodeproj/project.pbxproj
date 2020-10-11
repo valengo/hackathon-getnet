@@ -13,6 +13,24 @@
 		649983822532288D0064EB9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649983812532288D0064EB9F /* Preview Assets.xcassets */; };
 		6499838D2532288D0064EB9F /* GethackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6499838C2532288D0064EB9F /* GethackTests.swift */; };
 		649983982532288D0064EB9F /* GethackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649983972532288D0064EB9F /* GethackUITests.swift */; };
+		6499849B253346E20064EB9F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64998488253346E20064EB9F /* Card.swift */; };
+		6499849C253346E20064EB9F /* AnnounceProductNeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6499848B253346E20064EB9F /* AnnounceProductNeed.swift */; };
+		6499849D253346E20064EB9F /* ViewProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6499848D253346E20064EB9F /* ViewProduct.swift */; };
+		6499849E253346E20064EB9F /* SearchProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6499848E253346E20064EB9F /* SearchProduct.swift */; };
+		649984A0253346E20064EB9F /* AnnounceProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64998490253346E20064EB9F /* AnnounceProduct.swift */; };
+		649984A1253346E20064EB9F /* MakeCreditCardPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64998491253346E20064EB9F /* MakeCreditCardPayment.swift */; };
+		649984A2253346E20064EB9F /* BuyProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64998492253346E20064EB9F /* BuyProduct.swift */; };
+		649984A3253346E20064EB9F /* UpdateProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64998494253346E20064EB9F /* UpdateProfile.swift */; };
+		649984A4253346E20064EB9F /* DeleteAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64998496253346E20064EB9F /* DeleteAccount.swift */; };
+		649984A5253346E20064EB9F /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64998497253346E20064EB9F /* CreateAccount.swift */; };
+		649984A6253346E20064EB9F /* UpdateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64998498253346E20064EB9F /* UpdateAccount.swift */; };
+		649984A7253346E20064EB9F /* AnnounceServiceNeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6499849A253346E20064EB9F /* AnnounceServiceNeed.swift */; };
+		649984B3253346FA0064EB9F /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649984AE253346FA0064EB9F /* Auth.swift */; };
+		649984B4253346FA0064EB9F /* CrediCardPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649984AF253346FA0064EB9F /* CrediCardPayment.swift */; };
+		649984B5253346FA0064EB9F /* CardToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649984B0253346FA0064EB9F /* CardToken.swift */; };
+		649984B6253346FA0064EB9F /* PaymentGetnet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649984B1253346FA0064EB9F /* PaymentGetnet.swift */; };
+		649984B7253346FA0064EB9F /* PaymentServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649984B2253346FA0064EB9F /* PaymentServiceProtocol.swift */; };
+		649984BD253347070064EB9F /* CreditCardPaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649984BC253347070064EB9F /* CreditCardPaymentViewModel.swift */; };
 		BC18F1442532912F00348A10 /* BuyerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F1432532912F00348A10 /* BuyerInfoView.swift */; };
 		BC18F14C253291C700348A10 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F14B253291C700348A10 /* ButtonsView.swift */; };
 		BC18F1552532954400348A10 /* ConfirmOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18F1542532954400348A10 /* ConfirmOrderView.swift */; };
@@ -61,6 +79,24 @@
 		649983932532288D0064EB9F /* GethackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GethackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		649983972532288D0064EB9F /* GethackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GethackUITests.swift; sourceTree = "<group>"; };
 		649983992532288D0064EB9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64998488253346E20064EB9F /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		6499848B253346E20064EB9F /* AnnounceProductNeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnounceProductNeed.swift; sourceTree = "<group>"; };
+		6499848D253346E20064EB9F /* ViewProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewProduct.swift; sourceTree = "<group>"; };
+		6499848E253346E20064EB9F /* SearchProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchProduct.swift; sourceTree = "<group>"; };
+		64998490253346E20064EB9F /* AnnounceProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnounceProduct.swift; sourceTree = "<group>"; };
+		64998491253346E20064EB9F /* MakeCreditCardPayment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeCreditCardPayment.swift; sourceTree = "<group>"; };
+		64998492253346E20064EB9F /* BuyProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyProduct.swift; sourceTree = "<group>"; };
+		64998494253346E20064EB9F /* UpdateProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateProfile.swift; sourceTree = "<group>"; };
+		64998496253346E20064EB9F /* DeleteAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteAccount.swift; sourceTree = "<group>"; };
+		64998497253346E20064EB9F /* CreateAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
+		64998498253346E20064EB9F /* UpdateAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateAccount.swift; sourceTree = "<group>"; };
+		6499849A253346E20064EB9F /* AnnounceServiceNeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnounceServiceNeed.swift; sourceTree = "<group>"; };
+		649984AE253346FA0064EB9F /* Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		649984AF253346FA0064EB9F /* CrediCardPayment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrediCardPayment.swift; sourceTree = "<group>"; };
+		649984B0253346FA0064EB9F /* CardToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardToken.swift; sourceTree = "<group>"; };
+		649984B1253346FA0064EB9F /* PaymentGetnet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentGetnet.swift; sourceTree = "<group>"; };
+		649984B2253346FA0064EB9F /* PaymentServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentServiceProtocol.swift; sourceTree = "<group>"; };
+		649984BC253347070064EB9F /* CreditCardPaymentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardPaymentViewModel.swift; sourceTree = "<group>"; };
 		BC18F1432532912F00348A10 /* BuyerInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyerInfoView.swift; sourceTree = "<group>"; };
 		BC18F14B253291C700348A10 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 		BC18F1542532954400348A10 /* ConfirmOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmOrderView.swift; sourceTree = "<group>"; };
@@ -127,10 +163,10 @@
 		649983792532288B0064EB9F /* Gethack */ = {
 			isa = PBXGroup;
 			children = (
-				6499840D25323E670064EB9F /* Services */,
-				6499840C25323E5B0064EB9F /* Repository */,
-				64998436253291A40064EB9F /* ViewModel */,
-				649983B4253231820064EB9F /* Domain */,
+				649984BB253347070064EB9F /* ViewModel */,
+				649984AB253346F00064EB9F /* Repository */,
+				649984AC253346FA0064EB9F /* Services */,
+				64998486253346E20064EB9F /* Domain */,
 				649983AF2532298C0064EB9F /* View */,
 				649983A8253228EF0064EB9F /* Supporting */,
 				649983802532288D0064EB9F /* Preview Content */,
@@ -190,6 +226,116 @@
 				6499837E2532288D0064EB9F /* Assets.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		64998486253346E20064EB9F /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				64998487253346E20064EB9F /* Models */,
+				64998489253346E20064EB9F /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		64998487253346E20064EB9F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				64998488253346E20064EB9F /* Card.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		64998489253346E20064EB9F /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				6499848A253346E20064EB9F /* ProductExchange */,
+				6499848C253346E20064EB9F /* CollectiveBuying */,
+				64998493253346E20064EB9F /* Profile */,
+				64998495253346E20064EB9F /* Account */,
+				64998499253346E20064EB9F /* ServiceExchange */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		6499848A253346E20064EB9F /* ProductExchange */ = {
+			isa = PBXGroup;
+			children = (
+				6499848B253346E20064EB9F /* AnnounceProductNeed.swift */,
+			);
+			path = ProductExchange;
+			sourceTree = "<group>";
+		};
+		6499848C253346E20064EB9F /* CollectiveBuying */ = {
+			isa = PBXGroup;
+			children = (
+				6499848D253346E20064EB9F /* ViewProduct.swift */,
+				6499848E253346E20064EB9F /* SearchProduct.swift */,
+				64998490253346E20064EB9F /* AnnounceProduct.swift */,
+				64998491253346E20064EB9F /* MakeCreditCardPayment.swift */,
+				64998492253346E20064EB9F /* BuyProduct.swift */,
+			);
+			path = CollectiveBuying;
+			sourceTree = "<group>";
+		};
+		64998493253346E20064EB9F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				64998494253346E20064EB9F /* UpdateProfile.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		64998495253346E20064EB9F /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				64998496253346E20064EB9F /* DeleteAccount.swift */,
+				64998497253346E20064EB9F /* CreateAccount.swift */,
+				64998498253346E20064EB9F /* UpdateAccount.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		64998499253346E20064EB9F /* ServiceExchange */ = {
+			isa = PBXGroup;
+			children = (
+				6499849A253346E20064EB9F /* AnnounceServiceNeed.swift */,
+			);
+			path = ServiceExchange;
+			sourceTree = "<group>";
+		};
+		649984AB253346F00064EB9F /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		649984AC253346FA0064EB9F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				649984AD253346FA0064EB9F /* DTO */,
+				649984B1253346FA0064EB9F /* PaymentGetnet.swift */,
+				649984B2253346FA0064EB9F /* PaymentServiceProtocol.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		649984AD253346FA0064EB9F /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				649984AE253346FA0064EB9F /* Auth.swift */,
+				649984AF253346FA0064EB9F /* CrediCardPayment.swift */,
+				649984B0253346FA0064EB9F /* CardToken.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		649984BB253347070064EB9F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				649984BC253347070064EB9F /* CreditCardPaymentViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		BC18F1422532910000348A10 /* Product */ = {
@@ -384,22 +530,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				649984A6253346E20064EB9F /* UpdateAccount.swift in Sources */,
 				BC18F1552532954400348A10 /* ConfirmOrderView.swift in Sources */,
 				BC18F18125332E9600348A10 /* OrderInfoView.swift in Sources */,
+				6499849B253346E20064EB9F /* Card.swift in Sources */,
+				649984A7253346E20064EB9F /* AnnounceServiceNeed.swift in Sources */,
 				BC18F1722532A18500348A10 /* ProfileList.swift in Sources */,
+				649984A2253346E20064EB9F /* BuyProduct.swift in Sources */,
 				BC6D66B3253337EC0084EAA8 /* CollectiveShoppingProgressView.swift in Sources */,
 				BC18F16D25329F3D00348A10 /* ClientInfoView.swift in Sources */,
 				BC93C9BD2532560A009D2E74 /* OffersTypeView.swift in Sources */,
 				6499837D2532288B0064EB9F /* CollectiveBuyingView.swift in Sources */,
+				649984B4253346FA0064EB9F /* CrediCardPayment.swift in Sources */,
+				649984A0253346E20064EB9F /* AnnounceProduct.swift in Sources */,
+				649984A5253346E20064EB9F /* CreateAccount.swift in Sources */,
+				649984A3253346E20064EB9F /* UpdateProfile.swift in Sources */,
+				649984BD253347070064EB9F /* CreditCardPaymentViewModel.swift in Sources */,
 				BC18F15B253296FF00348A10 /* OrderConfirmedView.swift in Sources */,
 				BC93C9EC25326531009D2E74 /* OffersCollectionView.swift in Sources */,
 				BC18F16525329A2100348A10 /* ProfilePageView.swift in Sources */,
 				BC93C9E12532622E009D2E74 /* OfferCollectionView.swift in Sources */,
+				649984B6253346FA0064EB9F /* PaymentGetnet.swift in Sources */,
+				649984A1253346E20064EB9F /* MakeCreditCardPayment.swift in Sources */,
+				649984B5253346FA0064EB9F /* CardToken.swift in Sources */,
 				BC93C9F82532832E009D2E74 /* ProductView.swift in Sources */,
+				649984B7253346FA0064EB9F /* PaymentServiceProtocol.swift in Sources */,
+				649984A4253346E20064EB9F /* DeleteAccount.swift in Sources */,
 				BC6D66A8253332C20084EAA8 /* AppView.swift in Sources */,
+				649984B3253346FA0064EB9F /* Auth.swift in Sources */,
+				6499849D253346E20064EB9F /* ViewProduct.swift in Sources */,
 				BC18F1442532912F00348A10 /* BuyerInfoView.swift in Sources */,
 				BC18F14C253291C700348A10 /* ButtonsView.swift in Sources */,
+				6499849C253346E20064EB9F /* AnnounceProductNeed.swift in Sources */,
 				BC18F1772532ACED00348A10 /* PaymentMethodView.swift in Sources */,
+				6499849E253346E20064EB9F /* SearchProduct.swift in Sources */,
 				6499837B2532288B0064EB9F /* GethackApp.swift in Sources */,
 				BC18F17C2532B1D100348A10 /* CardInfoView.swift in Sources */,
 			);
