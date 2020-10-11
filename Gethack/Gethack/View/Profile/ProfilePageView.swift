@@ -31,6 +31,7 @@ struct ProfilePageView: View {
                 })
             )
         }
+        .accentColor(.ourRed)
         
     }
 }

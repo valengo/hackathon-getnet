@@ -8,9 +8,40 @@
 import SwiftUI
 
 struct ExchangeFeedView: View {
+    
+    @State private var textField: String = ""
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                HStack {
+                    TextField("Search", text: $textField)
+                    Image(systemName: "mic.fill")
+                }
+                .padding([.leading, .trailing, .top])
+                
+                ServicesTypeView()
+                    .padding(.leading)
+                ServicesListView()
+            }
+            .navigationBarTitle("Troca de serviços", displayMode: .inline)
+            
+            .navigationBarItems(leading:
+                                    Button(action: {}, label: {
+                                        Image(systemName: "plus")
+                                    }),
+                                trailing:
+                                    Button(action: {}, label: {
+                                        Image(systemName: "bell")
+                                    })
+            )
+            
+            
+        }
+        .accentColor(.ourRed)
+        
     }
+    
 }
 
 struct ExchangeFeedView_Previews: PreviewProvider {

@@ -13,7 +13,6 @@ struct CollectiveShoppingProductView: View {
             CollectiveShoppingProductInfoView()
             
             Image("Comprovante")
-                .frame(alignment: .center)
             
             CollectiveShoppingProductSellerView()
             

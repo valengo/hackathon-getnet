@@ -14,7 +14,17 @@ struct CancelFeedbackView: View {
                 .font(.system(size: 25, weight: .bold))
                 .padding(.bottom, 40)
             Text("Gostaria de nos informar o motivo do cancelamento?")
-                .padding(.bottom, 30)
+                .padding(.bottom, 40)
+            
+            
+            CancelReasonsView()
+            Spacer()
+            NavigationLink(
+                destination: CancelConfirmedView(),
+                label: {
+                    Image("TelaInicial")
+                })
+            
         }
     }
 }

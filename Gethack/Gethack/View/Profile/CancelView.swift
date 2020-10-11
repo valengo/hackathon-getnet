@@ -21,7 +21,7 @@ struct CancelView: View {
                 .bold()
             Spacer()
             NavigationLink(
-                destination: CancelConfirmedView(),
+                destination: CancelFeedbackView(),
                 label: {
                     Image("Cancelar2")
                 })
