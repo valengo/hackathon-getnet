@@ -28,10 +28,9 @@ struct CollectiveShoppingProductSellerView: View {
             Text("Rua Nicola Pellanda, 4188, Pinheirinho")
                 .font(.system(size: 20))
             
-            Image("Bar")
+            Image("bar")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(alignment: .center)
                 .padding(.bottom)
                 .padding(.top, 50)
             
@@ -39,12 +38,13 @@ struct CollectiveShoppingProductSellerView: View {
                 .font(.system(size: 20, weight: .bold))
             Text("unidades adquiridas")
                 .font(.system(size: 20))
-                .padding(.bottom)
+                .padding(.bottom, 5)
             Text("7")
                 .font(.system(size: 20, weight: .bold))
             Text("compradores")
                 .font(.system(size: 20))
         }
+        .padding([.leading, .trailing])
     }
 }
 

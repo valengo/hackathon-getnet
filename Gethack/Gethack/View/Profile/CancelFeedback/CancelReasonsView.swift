@@ -11,9 +11,13 @@ struct CancelReasonsView: View {
     var body: some View {
         VStack(alignment: .center) {
             Image("Opcao1")
+                .padding(.bottom, 30)
             Image("Opcao2")
+                    .padding(.bottom, 30)
             Image("Opcao3")
+                .padding(.bottom, 30)
             Image("Opcao4")
+                .padding(.bottom, 30)
         }
     }
 }

@@ -15,7 +15,7 @@ struct DeadlineInputView: View {
         VStack(alignment: .leading) {
             Text("Qual prazo esperado para o projeto")
                 .font(.system(size: 25, weight: .bold))
-            Spacer()
+                .padding(.bottom, 180)
             HStack {
                 Text("Pontos")
                     .font(.system(size: 35))
@@ -26,7 +26,9 @@ struct DeadlineInputView: View {
             NavigationLink(
                 destination: CommentInputView(),
                 label: {
+                    Spacer()
                     Image("Continuar")
+                    Spacer()
                 })
         }
         .padding()

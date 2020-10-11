@@ -11,10 +11,11 @@ struct ProposalSentView: View {
     var body: some View {
         VStack {
             Image("PropostaEnviada")
-                .padding(.top, 150)
+                .padding(.top, 130)
             Text("Proposta enviada!")
                 .font(.system(size: 25, weight: .bold))
             Text("João vai analisar a sua proposta e você receberá uma notificação quando ele decidir!")
+                .multilineTextAlignment(.center)
             Spacer()
             Image("Concluir")
         }

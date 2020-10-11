@@ -10,19 +10,28 @@ import SwiftUI
 struct CancelFeedbackView: View {
     var body: some View {
         VStack(alignment: .leading) {
-            Text("Sua compra foi cancelada")
-                .font(.system(size: 25, weight: .bold))
-                .padding(.bottom, 40)
+            HStack {
+                Text("Sua compra foi cancelada")
+                    .font(.system(size: 25, weight: .bold))
+                    .padding(.bottom, 40)
+                Spacer()
+            }
+            
             Text("Gostaria de nos informar o motivo do cancelamento?")
-                .padding(.bottom, 40)
+                .padding(.bottom, 60)
             
-            
-            CancelReasonsView()
+            HStack{
+                Spacer()
+                CancelReasonsView()
+                Spacer()
+            }
             Spacer()
             NavigationLink(
                 destination: CancelConfirmedView(),
                 label: {
+                    Spacer()
                     Image("TelaInicial")
+                    Spacer()
                 })
         }
         .padding()
