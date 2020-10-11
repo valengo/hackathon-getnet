@@ -12,13 +12,38 @@ struct CollectiveShoppingProgressView: View {
         List {
             HStack {
                 Image("Clock")
-                VStack {
+                    .padding(.horizontal)
+                VStack(alignment: .leading) {
                     Text("Cocoa-Cola Lata - 50un")
+                        .bold()
                     Text("Em progresso")
                 }
                 Spacer()
                 Image("Arrow")
             }
+            HStack {
+                Image("Check")
+                    .padding(.horizontal)
+                VStack(alignment: .leading) {
+                    Text("Batom Líquido Eudora - 20un")
+                        .bold()
+                    Text("Finalizado")
+                }
+                Spacer()
+                Image("Arrow")
+            }
+            HStack {
+                Image("Check")
+                    .padding(.horizontal)
+                VStack(alignment: .leading) {
+                    Text("Fralda Pampers G - 45un")
+                        .bold()
+                    Text("Finalizado")
+                }
+                Spacer()
+                Image("Arrow")
+            }
+
         }
     }
 }

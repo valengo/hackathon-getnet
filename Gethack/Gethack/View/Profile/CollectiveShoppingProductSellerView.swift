@@ -1,19 +1,15 @@
 //
-//  BuyerInfoView.swift
+//  CollectiveShoppingProductSellerView.swift
 //  Gethack
 //
-//  Created by Eduarda Mello on 10/10/20.
+//  Created by Eduarda Mello on 11/10/20.
 //
 
 import SwiftUI
 
-struct BuyerInfoView: View {
+struct CollectiveShoppingProductSellerView: View {
     var body: some View {
         VStack(alignment: .leading) {
-            Text("R$2,00 un")
-                .foregroundColor(.ourRed)
-                .font(.system(size: 35, weight: .bold))
-            
             HStack {
                 Image("Seller")
                     .resizable()
@@ -39,12 +35,12 @@ struct BuyerInfoView: View {
                 .padding(.bottom)
                 .padding(.top, 50)
             
-            Text("170/300")
+            Text("240/300")
                 .font(.system(size: 20, weight: .bold))
             Text("unidades adquiridas")
                 .font(.system(size: 20))
                 .padding(.bottom)
-            Text("5")
+            Text("7")
                 .font(.system(size: 20, weight: .bold))
             Text("compradores")
                 .font(.system(size: 20))
@@ -52,8 +48,8 @@ struct BuyerInfoView: View {
     }
 }
 
-struct BuyerInfo_Previews: PreviewProvider {
+struct CollectiveShoppingProductSellerView_Previews: PreviewProvider {
     static var previews: some View {
-        BuyerInfoView()
+        CollectiveShoppingProductSellerView()
     }
 }
