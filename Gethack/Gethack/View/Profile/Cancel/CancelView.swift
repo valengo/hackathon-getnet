@@ -12,18 +12,20 @@ struct CancelView: View {
         VStack(alignment: .leading) {
             Text("Tem certeza que deseja cancelar sua compra?")
                 .font(.system(size: 25, weight: .bold))
-            HStack {
+            HStack(alignment: .center) {
                 Image("Warning")
                 Text("O cancelamento não poderá ser desfeito!")
             }
-            Spacer()
+            .padding(.bottom, 200)
             Text("Ao cancelar sua compra, seu dinheiro será reembolsado")
                 .bold()
             Spacer()
             NavigationLink(
                 destination: CancelFeedbackView(),
                 label: {
+                    Spacer()
                     Image("Cancelar2")
+                    Spacer()
                 })
             
         }

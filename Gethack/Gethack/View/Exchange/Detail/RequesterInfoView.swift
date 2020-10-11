@@ -18,13 +18,19 @@ struct RequesterInfoView: View {
                     .frame(width: 60, height: 60)
                 VStack(alignment: .leading) {
                     Text("João de Souza")
+                        .font(.system(size:    15, weight: .bold))
                         .padding(.bottom, 5)
                     HStack {
                         Image(systemName: "star.fill")
+                            .foregroundColor(.yellow)
                         Image(systemName: "star.fill")
+                            .foregroundColor(.yellow)
                         Image(systemName: "star.fill")
+                            .foregroundColor(.yellow)
                         Image(systemName: "star.fill")
+                            .foregroundColor(.yellow)
                         Image(systemName: "star.fill")
+                            .foregroundColor(.yellow)
                         Text("4.9")
                     }
                 }

@@ -13,10 +13,15 @@ struct PriceInputView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text("Qual valor que você deseja receber pelo serviço?")
-                .font(.system(size: 25, weight: .bold))
+            HStack {
+                Text("Qual valor que você deseja receber pelo serviço?")
+                    .font(.system(size: 25, weight: .bold))
+                Spacer()
+            }
+            .padding(.bottom, 30)
+            
             Text("João sugeriu um valor de: 400 pontos")
-            Spacer()
+                .padding(.bottom, 180)
             HStack {
                 Text("Pontos")
                     .font(.system(size: 35))
@@ -27,7 +32,9 @@ struct PriceInputView: View {
             NavigationLink(
                 destination: DeadlineInputView(),
                 label: {
+                    Spacer()
                     Image("Continuar")
+                    Spacer()
                 })
         }
         .padding()

@@ -12,13 +12,20 @@ struct CollectiveShoppingProductView: View {
         VStack(alignment: .leading) {
             CollectiveShoppingProductInfoView()
             
-            Image("Comprovante")
+            HStack {
+                Spacer()
+                Image("Comprovante")
+                Spacer()
+            }
+            .padding(.bottom, 30)
+            
             
             CollectiveShoppingProductSellerView()
             
             Spacer()
             
             HStack {
+                Spacer()
                 Button(action: {}, label: {
                     Image("Adquirir")
                 })
@@ -27,6 +34,7 @@ struct CollectiveShoppingProductView: View {
                     label: {
                         Image("Cancelar")
                     })
+                Spacer()
                 
             }
         }

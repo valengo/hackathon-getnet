@@ -12,21 +12,22 @@ struct CollectiveShoppingProductInfoView: View {
         VStack(alignment: .leading) {
             Text("Coca-Cola Lata (355ml)")
                 .font(.system(size: 25, weight: .bold))
-                .padding(.bottom, 5)
+                .frame(width: 410, alignment: .leading)
             Text("Código da Compra - F82390-BB")
                 .font(.system(size: 22))
-                .padding(.bottom, 5)
             Text("Compra feita em 10/10/2020")
-                .font(.system(size: 20))
+                .font(.system(size: 18))
             Text("Pago com cartão Visa **** 6789")
-                .font(.system(size: 20))
-                .padding(.bottom, 40)
+                .font(.system(size: 18))
+                .padding(.bottom, 25)
             Text("50 Unidades Adquiridas")
                 .font(.system(size: 20, weight: .bold))
             Text("Preço Total: R$100,00")
                 .font(.system(size: 20, weight: .bold))
+                .padding(.bottom, 30)
             
         }
+        .padding(.leading)
     }
 }
 

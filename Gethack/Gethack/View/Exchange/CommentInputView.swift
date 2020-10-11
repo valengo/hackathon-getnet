@@ -15,13 +15,15 @@ struct CommentInputView: View {
         VStack(alignment: .leading) {
             Text("Quer deixar algum comentário?")
                 .font(.system(size: 25, weight: .bold))
-            Spacer()
+                .padding(.bottom, 180)
             TextField("Deixe seu comentário aqui", text: $textField)
             Spacer()
             NavigationLink(
                 destination: ProposalSentView(),
                 label: {
+                    Spacer()
                     Image("EnviarProposta")
+                    Spacer()
                 })
         }
         .padding()
