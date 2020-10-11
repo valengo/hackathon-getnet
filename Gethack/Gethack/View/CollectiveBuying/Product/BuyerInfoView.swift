@@ -32,7 +32,7 @@ struct BuyerInfoView: View {
             Text("Rua Nicola Pellanda, 4188, Pinheirinho")
                 .font(.system(size: 20))
             
-            Image("Bar")
+            Image("bar")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(alignment: .center)
