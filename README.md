@@ -17,7 +17,7 @@ As **compras coletivas aumentam o poder de barganha**, permitindo comprar a meno
 * [Xcode](https://developer.apple.com/xcode/) - IDE para programar em Swift
 * [API da Plataforma Digital da Getnet](https://developers.getnet.com.br) - Soluções para facilitar pagamentos  
 
-## Integreção com a Plataforma Digital da Getnet
+## Integração com a Plataforma Digital da Getnet
 * **Baseada na [documentação da API](https://developers.getnet.com.br/api)**
 * **Autenticação** /auth/oauth/v2/token
 * **Geração de token para cartão** /v1/tokens/card
