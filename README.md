@@ -37,9 +37,6 @@ Colabora, duas formar de economizar em um só lugar!
 * Protótipo mobile | Donos de Pequenos negócios - [Figma](https://www.figma.com/proto/rJmrHNn9RLQEmYK4AjRt3f/Colabora?node-id=1%3A13997&scaling=scale-down)
 * Vídeo demo iOS - [Youtube](https://youtu.be/xxu2wzYShTU)
 
-## Link da apresentação 
-[Apresentação GetNet | App Colabora |Equipe 07](https://www.notion.so/Nossos-Links-400a95f7343a4eff9)
-
 ## Um pouco sobre a nossa equipe
 
 ### Andressa Valengo | Developer [(Linkedin)](https://www.linkedin.com/in/valengo/) [(GitHub)](https://github.com/valengo)[(Instagram - Criação de conteúdo)](https://www.instagram.com/andycompartilha/)
