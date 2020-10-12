@@ -44,7 +44,7 @@ As **compras coletivas aumentam o poder de barganha**, permitindo comprar a meno
 
 ## Um pouco sobre a nossa equipe
 
-### Andressa Valengo | Developer [(Linkedin)](https://www.linkedin.com/in/valengo/) [(GitHub)](https://github.com/valengo)[(Instagram - Criação de conteúdo)](https://www.instagram.com/andycompartilha/)
+### Andressa Valengo | Development [(Linkedin)](https://www.linkedin.com/in/valengo/) [(GitHub)](https://github.com/valengo)[(Instagram - Criação de conteúdo)](https://www.instagram.com/andycompartilha/)
 Bioinformata e app developer, @valengo ama desenvolver soluções para problemas reais e jogos. Além da paixão por desenvolvimento e genômica, gosta muito de desenhar e trabalhar como designer também!
 ### Liana Oliveira | Marketing [(Linkedin)](https://www.linkedin.com/in/liana-oliveira/) [(Linktree)](https://linktr.ee/liana_oliveira)
 Bióloga, com doutorado em genética, pesquisadora e docente no ensino superior, na área da saúde. Muito lógica e metódica, é apaixonada por ensinar e adora pesquisa e metodologia científica.
@@ -52,5 +52,5 @@ Bióloga, com doutorado em genética, pesquisadora e docente no ensino superior,
 Envolvido no mundo das startups, busca sempre contribuir com projetos que ajudem a impactar positivamente a sociedade. Com conhecimentos nas áreas de business e design, ajuda a alinhar as necessidades dos usuários com soluções inteligentes. 
 ### Isabela de Castro | Design [(Linkedin)](https://www.linkedin.com/in/isa-castro/) [(website)](https://isacastro.me/)
 Graduanda em Jogos Digitais pela PUCPR, atua na área de arte para jogos há mais de 6 anos e atualmente é aluna na Apple Developer Academy onde se apaixonou pela área de UX design.
-### Eduarda Linhares Mello | Developer [(Linkedin)](https://www.linkedin.com/in/dudamello/) [(GitHub)](https://github.com/dudamello) [(Instagram - Criação de conteúdo)](https://www.instagram.com/dudadev/)
+### Eduarda Linhares Mello | Development [(Linkedin)](https://www.linkedin.com/in/dudamello/) [(GitHub)](https://github.com/dudamello) [(Instagram - Criação de conteúdo)](https://www.instagram.com/dudadev/)
 Atualmente cursa Engenharia Eletrônica na UTFPR e é desenvolvedora iOS na Apple Developer Academy. Muito criativa e comunicativa, ama compartilhar conteúdo nas suas redes sociais.
