@@ -18,7 +18,7 @@ As **compras coletivas aumentam o poder de barganha**, permitindo comprar a meno
 * [API da Plataforma Digital da Getnet](https://developers.getnet.com.br) - Soluções para facilitar pagamentos  
 
 ## Integreção com a Plataforma Digital da Getnet
-* Realizada com base na [documentação da API](https://developers.getnet.com.br/api)
+* Realizada com base na **[documentação da API](https://developers.getnet.com.br/api)**
 * **Autenticação** /auth/oauth/v2/token
 * **Geração de token para cartão** /v1/tokens/card
 * **Pagamento com cartão de crédito** /v1/payments/credit
