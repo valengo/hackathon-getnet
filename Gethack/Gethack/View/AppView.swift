@@ -11,7 +11,7 @@ struct AppView: View {
     var body: some View {
         TabView {
 
-            HomeFeedView()
+            ExchangeFeedView()
                 .tabItem {
                     Image("Home").renderingMode(.template)
                     Text("Home")
@@ -23,7 +23,7 @@ struct AppView: View {
                     Text("Compras")
                 }
             
-            ExchangeFeedView()
+            HomeFeedView()
                 .tabItem {
                     Image("Permuta").renderingMode(.template)
                     Text("Permuta")
