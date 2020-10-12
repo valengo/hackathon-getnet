@@ -49,3 +49,9 @@ struct ProductView: View {
         .background(Color.white.edgesIgnoringSafeArea(.all))
     }
 }
+
+struct ProductView_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+    }
+}

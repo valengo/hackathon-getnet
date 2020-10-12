@@ -14,9 +14,12 @@ struct OrderConfirmedView: View {
             
             Spacer()
             
-            VStack {
+            HStack {
                 Button(action: {}, label: {
-                    Image("Download")
+                    Image("ContinuarComprando")
+                })
+                Button(action: {}, label: {
+                    Image("BaixarComprovante")
                 })
             }
         }
