@@ -1,5 +1,6 @@
 # App Colabora
-Esse é o repositório da solução Colabora (time 7) desenvolvida no Hackathon Empreenda Getnet. Recebemos o desafio de mudar a realidade de pequenas e médias empresas por meio de serviços financeiros 🏦
+**Esse é o repositório da solução Colabora (time 7) desenvolvida no Hackathon Empreenda Getnet.**
+Recebemos o desafio de mudar a realidade de pequenas e médias empresas por meio de serviços financeiros 🏦
 
 O **Colabora** é ecossistema para micro e pequenos empreendedores.
 No **aplicativo** é possível realizar **compras coletivas** e também fazer **permuta** de serviços e de produtos, reduzindo os gastos. 
