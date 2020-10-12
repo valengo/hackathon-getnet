@@ -290,7 +290,7 @@
 				BC6D66A7253332C20084EAA8 /* AppView.swift */,
 				649983B02532299E0064EB9F /* Assets */,
 				6461B6BE2533A32B00BB6857 /* Commons */,
-				BC6D66DF253366B50084EAA8 /* Ex */,
+				BC6D66DF253366B50084EAA8 /* Exchange */,
 				BC18F1852533302300348A10 /* CollectiveBuying */,
 				BC6D66E8253367130084EAA8 /* Home */,
 				BC18F162253299E000348A10 /* Profile */,
@@ -486,12 +486,12 @@
 			path = CollectiveBuying;
 			sourceTree = "<group>";
 		};
-		BC6D66DF253366B50084EAA8 /* Ex */ = {
+		BC6D66DF253366B50084EAA8 /* Exchange */ = {
 			isa = PBXGroup;
 			children = (
 				BC6D66E0253366C40084EAA8 /* HomeFeedView.swift */,
 			);
-			path = Ex;
+			path = Exchange;
 			sourceTree = "<group>";
 		};
 		BC6D66E8253367130084EAA8 /* Home */ = {
