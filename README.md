@@ -17,9 +17,14 @@ Colabora, duas formar de economizar em um só lugar!
 * [Xcode](https://developer.apple.com/xcode/) - IDE para programar em Swift
 * [API da Plataforma Digital da Getnet](https://developers.getnet.com.br) - Soluções para facilitar pagamentos  
 
-## Integreção com Getnet
-* 
-* Autenticação
+## Integreção com a Plataforma Digital da Getnet
+* Realizada com base na [documentação da API](https://developers.getnet.com.br/api)
+* Autenticação | /auth/oauth/v2/token
+* Geração de token para cartão | /v1/tokens/card
+* Pagamento com cartão de crédito | /v1/payments/credit
+* Testes foram feitos utilizando a Sandbox da [Plataforma Digital](https://developers.getnet.com.br/login)
+
+![log de chamadas feitas para a API da Plataforma Digital](https://i.imgur.com/Ba38ZnX.png)
 
 ## Ferramentas de Design
 
