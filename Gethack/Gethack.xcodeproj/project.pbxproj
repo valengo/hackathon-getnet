@@ -290,9 +290,9 @@
 				BC6D66A7253332C20084EAA8 /* AppView.swift */,
 				649983B02532299E0064EB9F /* Assets */,
 				6461B6BE2533A32B00BB6857 /* Commons */,
-				BC6D66DF253366B50084EAA8 /* Home */,
+				BC6D66DF253366B50084EAA8 /* Ex */,
 				BC18F1852533302300348A10 /* CollectiveBuying */,
-				BC6D66E8253367130084EAA8 /* Exchange */,
+				BC6D66E8253367130084EAA8 /* Home */,
 				BC18F162253299E000348A10 /* Profile */,
 			);
 			path = View;
@@ -486,15 +486,15 @@
 			path = CollectiveBuying;
 			sourceTree = "<group>";
 		};
-		BC6D66DF253366B50084EAA8 /* Home */ = {
+		BC6D66DF253366B50084EAA8 /* Ex */ = {
 			isa = PBXGroup;
 			children = (
 				BC6D66E0253366C40084EAA8 /* HomeFeedView.swift */,
 			);
-			path = Home;
+			path = Ex;
 			sourceTree = "<group>";
 		};
-		BC6D66E8253367130084EAA8 /* Exchange */ = {
+		BC6D66E8253367130084EAA8 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				BCF149352533AE16002FB665 /* ExchangeFeed */,
@@ -504,7 +504,7 @@
 				BC6D671F2533820B0084EAA8 /* CommentInputView.swift */,
 				BC6D67242533829A0084EAA8 /* ProposalSentView.swift */,
 			);
-			path = Exchange;
+			path = Home;
 			sourceTree = "<group>";
 		};
 		BC93C9F325327D4D009D2E74 /* CollectiveBuyingFeed */ = {
