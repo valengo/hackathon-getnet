@@ -43,7 +43,7 @@ struct ProfileListView: View {
                         Text("Ver meus cartões")
                     }
                 })
-        }
+        }.listStyle(PlainListStyle())
         
         
         
