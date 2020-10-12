@@ -30,7 +30,7 @@ struct CancelFeedbackView: View {
                 destination: CancelConfirmedView(),
                 label: {
                     Spacer()
-                    Image("TelaInicial")
+                    Image("Continuar")
                     Spacer()
                 })
         }
