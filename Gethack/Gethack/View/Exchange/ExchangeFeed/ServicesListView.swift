@@ -66,7 +66,7 @@ struct ServicesListView: View {
                         }
                     }
                 })
-        }
+        }.listStyle(PlainListStyle())
     }
 }
 

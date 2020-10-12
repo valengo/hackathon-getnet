@@ -22,8 +22,6 @@ struct ProfilePageView: View {
                         .padding(.bottom, 20)
                     ClientInfoView()
                     ProfileListView()
-                        .padding(.leading, -35)
-                        .padding(.trailing, -35)
                         
                         
             }
