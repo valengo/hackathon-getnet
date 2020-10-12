@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct ProfileListView: View {
+    
     var body: some View {
-        
         List {
             NavigationLink (
                 destination: CollectiveShoppingProgressView(),
@@ -44,11 +44,6 @@ struct ProfileListView: View {
                     }
                 })
         }.listStyle(PlainListStyle())
-        
-        
-        
-        
-        
         
     }
 }

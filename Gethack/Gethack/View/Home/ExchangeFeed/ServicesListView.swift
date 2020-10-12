@@ -25,7 +25,7 @@ struct ServicesListView: View {
                             Text("400 pontos")
                                 .font(.system(size: 25, weight: .bold))
                                 .foregroundColor(.ourRed)
-                        }
+                        }.padding()
                     }
                 })
             
@@ -44,7 +44,7 @@ struct ServicesListView: View {
                             Text("400 pontos")
                                 .font(.system(size: 25, weight: .bold))
                                 .foregroundColor(.ourRed)
-                        }
+                        }.padding()
                     }
                 })
             
@@ -54,16 +54,16 @@ struct ServicesListView: View {
                     HStack {
                         Image("Img3")
                         VStack(alignment: .leading) {
-                            Text("TI e assistência técnica")
+                            Text("Assistência técnica de TI")
                                 .font(.system(size: 25, weight: .bold))
                                 .padding(.bottom, 5)
-                            Text("Meu computador está muito lerdo e preciso de ajuda!")
+                            Text("Meu PC está muito lerdo e preciso de ajuda!")
                                 .font(.system(size: 22))
                                 .padding(.bottom, 10)
                             Text("400 pontos")
                                 .font(.system(size: 25, weight: .bold))
                                 .foregroundColor(.ourRed)
-                        }
+                        }.padding()
                     }
                 })
         }.listStyle(PlainListStyle())
