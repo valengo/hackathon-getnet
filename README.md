@@ -12,7 +12,7 @@ As **compras coletivas aumentam o poder de barganha**, permitindo comprar a meno
 
 [![Watch the video](https://i.imgur.com/32dz1ii.png)](https://youtu.be/FNIZ3fMl23o)
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas no Desenvolvimento
 
 * [Xcode](https://developer.apple.com/xcode/) - IDE para programar em Swift
 * [API da Plataforma Digital da Getnet](https://developers.getnet.com.br) - Soluções para facilitar pagamentos  
