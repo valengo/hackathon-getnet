@@ -10,7 +10,7 @@ import SwiftUI
 struct AppView: View {
     var body: some View {
         TabView {
-            
+
             HomeFeedView()
                 .tabItem {
                     Image("Home").renderingMode(.template)
