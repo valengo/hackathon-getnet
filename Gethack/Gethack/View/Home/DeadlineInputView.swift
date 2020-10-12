@@ -15,13 +15,8 @@ struct DeadlineInputView: View {
         VStack(alignment: .leading) {
             Text("Qual prazo esperado para o projeto")
                 .font(.system(size: 25, weight: .bold))
-                .padding(.bottom, 180)
-            HStack {
-                Text("Pontos")
-                    .font(.system(size: 35))
-                    .padding(.trailing)
-                TextField("1 semana", text: $textField)
-            }
+                .padding(.bottom, 250)
+            TextField("1 semana", text: $textField)
             Spacer()
             NavigationLink(
                 destination: CommentInputView(),

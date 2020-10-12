@@ -15,7 +15,7 @@ struct CommentInputView: View {
         VStack(alignment: .leading) {
             Text("Quer deixar algum comentário?")
                 .font(.system(size: 25, weight: .bold))
-                .padding(.bottom, 180)
+                .padding(.bottom, 250)
             TextField("Deixe seu comentário aqui", text: $textField)
             Spacer()
             NavigationLink(
